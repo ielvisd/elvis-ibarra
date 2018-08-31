@@ -154,6 +154,10 @@ header nav a:last-child {
 	font-size: 18px;
 }
 
+.weeklytitle {
+	color: darkblue;
+}
+
 .weeklyp {
 	font-weight:bold;
 	font-style: italic;
