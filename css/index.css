@@ -63,17 +63,26 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Start ElvisIbarra.com Here */
+
 .container {
   width: 880px;
   /* TB LR */
-  margin: 0 auto;
+	margin: 0 auto;
+	border: solid black;
+}
+
+.title {
+	display:flex;
+	justify-content:center;
+	margin-top: 25px;
 }
 
 /* header */
 header {
 	display:flex;
-	justify-content:space-between;
-	margin-top: 35px;
+	justify-content:space-around;
+	margin-top: 15px;
 }
 
 nav {
@@ -104,6 +113,28 @@ header nav a:last-child {
 /*header .logo {
 	margin-top: 0px;
 }*/
+
+.main-content {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin-top: 15px;
+}
+
+.text-content {
+	margin-top: 10px;
+	border: solid lightgray;
+}
+
+footer {
+	display:flex;
+	justify-content:center;
+	margin-top: 35px;
+}
+
+p {
+	margin-top: 20px;
+}
 
 
 
