@@ -148,19 +148,7 @@ header {
   padding: 0px 5%;
   width: 100%;
 }
-
-header nav a {
-  font-size: 14px;
-  color: gray;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
 nav {
-  max-width:100%;
   display: flex;
   justify-content: space-between;
 }
@@ -195,7 +183,7 @@ h1 {
 }
 .profilepic {
   border-radius: 50%;
-  margin: 30px 5%;
+  padding: 30px 5%;
 }
 .middletext {
   justify-content: center;
@@ -222,5 +210,4 @@ ul.skills {
 }
 footer {
   text-align: center;
-  margin-top: 30px;
 }
