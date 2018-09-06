@@ -191,7 +191,7 @@ h1 {
 }
 .profilepic {
   border-radius: 50%;
-  padding: 30px 5%;
+  margin: 30px 5%;
 }
 .middletext {
   justify-content: center;
