@@ -85,20 +85,19 @@ header {
 }
 
 nav {
+	width:100%;
 	display: flex;
-	width:650px;
-	justify-content:space-between;
-	align-items:center;
-}
+	justify-content: space-around;
+}	
 
-header nav a {
-  font-size: 14px;
-  color: gray;
-  text-decoration: none;
-}
+nav a {
+	color: gray;
+	text-decoration: none;
+}	
 
 header nav a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
+	color: black;
 }
 
 header nav a:first-child {

@@ -152,9 +152,13 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
+nav a {
+  color: #EF62A4;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+  color: black;
 }
 .Namepic {
   display: flex;
