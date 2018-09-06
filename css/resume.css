@@ -156,10 +156,11 @@ nav {
   display: flex;
   justify-content: space-between;
   border-top: solid black;
+  font-weight: bold;
 }
 h1 {
   font-size: 3rem;
-  color: purple;
+  color: #EF62A4;
 }
 @media (max-width: 800px) {
   h1 {
@@ -170,6 +171,19 @@ h1 {
   h1 {
     color: red;
   }
+}
+.IntroSkills h3 {
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 2rem;
+  color: #EF62A4;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.75rem;
+  color: black;
+  font-weight: bold;
 }
 .IntroSkills {
   display: flex;
@@ -205,9 +219,17 @@ ul.skills {
 .workcontent {
   margin-top: 20px;
 }
+.workcontent h4 {
+  margin-bottom: 5px;
+}
+.languages h3 {
+  margin-bottom: 20px;
+}
 .languages {
   padding: 0px 7%;
 }
 footer {
+  margin-top: 20px;
   text-align: center;
+  font-weight: bold;
 }

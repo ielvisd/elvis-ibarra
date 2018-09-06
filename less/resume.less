@@ -62,9 +62,9 @@ html, body {
 
 // Variables Here
 @mainColor: black;
-@accentColor: purple;
+@accentColor: @villains;
 
-@tall-poppy: #C42727;
+@villains: #EF62A4;
 @fontSize: 1.6rem;
 @fontStack: Helvetica, Arial, sans-serif;
 
@@ -115,6 +115,7 @@ nav {
 	display:flex;;
 	justify-content:space-between;
 	border-top: solid black;
+	font-weight: bold;
 }
 
 h1 {
@@ -129,6 +130,22 @@ h1 {
 		color: red;
 	}
 }
+
+.IntroSkills h3 {	
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 2rem;
+	color:@accentColor;
+	font-weight: bold;
+}	
+
+h4 {
+	font-size: 1.75rem;
+	color:black;
+	font-weight: bold;
+}	
 
 .IntroSkills {
 	display:flex;
@@ -170,10 +187,20 @@ ul.skills {
 	margin-top: 20px;
 }
 
+.workcontent h4{	
+	margin-bottom: 5px;
+}
+
+.languages h3{	
+	margin-bottom: 20px;
+}
+
 .languages {
 	padding: 0px 7%;
 }
 
 footer {
+	margin-top: 20px;
 	text-align: center;
+	font-weight: bold;
 }
