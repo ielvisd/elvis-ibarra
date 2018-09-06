@@ -155,6 +155,10 @@ header nav a {
   text-decoration: none;
 }
 
+header nav a:hover {
+  text-decoration: underline;
+}
+
 nav {
   max-width:100%;
   display: flex;
