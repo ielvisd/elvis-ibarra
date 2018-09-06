@@ -148,7 +148,15 @@ header {
   padding: 0px 5%;
   width: 100%;
 }
+
+header nav a {
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
 nav {
+  max-width:100%;
   display: flex;
   justify-content: space-between;
 }
