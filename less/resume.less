@@ -70,6 +70,25 @@ html, body {
 
 @mobileValue: 500px;
 
+@font-color: @shark;
+@button-bg: @eastern-blue;
+@main-bg:  @white;
+@navigation-border: @silver;
+@footer-bg: @sandy-beach;
+@bg: @eastern-blue;
+@color: @sandy-beach;
+
+// Colors
+@white: #FFFFFF;
+@silver: #C0C0C0;
+@shark: #212529;
+@eastern-blue: #17A2B8;
+@sandy-beach: #FFEBCD;
+
+// Media Queries
+@tablet: (max-width: 800px);
+@phone: (max-width: 500px);
+
 // Mixin
 .center() {
   display: flex;
@@ -82,7 +101,9 @@ html, body {
   font-size: 6.7rem;
 }
 
+
 // Parametric Mixin
+
 // .custom-layout(center, flex-start);
 .custom-layout(@justify, @align) {
   display: flex;
@@ -108,6 +129,16 @@ html, body {
   -o-border-radius: @radius;
   border-radius: @radius;
 }
+.custom-button(@bg, @color) {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  .border-radius(10px);
+  text-decoration: none;
+  background: @bg;
+  color: @color;
+  text-align:center;
+}
 
 // NESTING: Avoid nesting more than 1 section deep
 header {
@@ -119,11 +150,18 @@ header {
 nav {
 	display: flex;
 	justify-content: space-between;
+	@media( max-width: 500px ) {
+		flex-direction: column;
+		align-items: center;
+		}
 }	
 
 nav a {
 	color: @accentColor;
 	text-decoration: none;
+	@media( max-width: 500px ) {
+		margin:10px 0;
+		}
 }	
 
 header nav a:hover {
@@ -138,17 +176,15 @@ header nav a:hover {
 	font-weight: bold;
 }
 
+.profilepic { 
+		@media( max-width: 500px ) {
+		display:none;
+		}
+	}	
+
 h1 {
 	font-size: 3rem;
 	color: @accentColor;
-	
-	@media( max-width: 800px ) {
-		color: green;
-	}
-	
-	@media( max-width: @mobileValue ) {
-		color: red;
-	}
 }
 
 .IntroSkills h3 {	
@@ -192,6 +228,16 @@ h4 {
 	justify-content: space-around;
 	padding-top: 17%;
 	padding-bottom: 17%;
+
+	@media( max-width: 500px ) {
+		h1 {
+			margin-top: 20px;
+		}
+		justify-content: space-around;
+		height: 150px;
+		padding-top: 0%;
+		padding-bottom: 20px;
+		}
 }
 
 ul.skills {
