@@ -2,196 +2,402 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-html, body {
-		height: 100%;
-		font-size: 62.5%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Titillium Web', sans-serif;
 }
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
-
+.container {
+  border: solid black;
+  max-width: 880px;
+  margin: 0 auto;
+  color: black;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
 /* Start ElvisIbarra.com Here */
-
 .container {
   max-width: 880px;
   /* TB LR */
-	margin: 0 auto;
-	font-size:1.6rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
 }
-
 .title {
-	display:flex;
-	justify-content:center;
-	margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
-
 /* header */
 header {
-	display:flex;
-	justify-content:space-around;
-	margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
 }
-
 nav {
-	width:100%;
-	display: flex;
-	justify-content: space-around;
-}	
-
-@media( max-width: 500px ) {
-	nav {
-		flex-direction:column;
-		align-items: center;
-		padding-bottom: 10px;
-		border-bottom: solid black;
-	}
-}	
-
-nav a {
-	color: gray;
-	text-decoration: none;
-	font-size: 1rem;
-}	
-
-@media( max-width: 500px ) {}
-	nav a {
-	margin:10px 0;
-	font-size: 2rem;
-	}
-
-header nav a:hover {
-	text-decoration: underline;
-	color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid black;
+  }
+}
+nav a {
+  color: gray;
+  text-decoration: none;
+  font-size: 1rem;
+}
+nav a {
+  margin: 10px 0;
+  font-size: 2rem;
+}
+header nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
 header nav a:first-child {
   margin-left: 0;
 }
-
 header nav a:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
-
 .title {
-	font-size: 3rem;
-	color: darkmagenta;
+  font-size: 3rem;
+  color: darkmagenta;
 }
-
 .cs14 {
-	color: crimson
+  color: crimson;
 }
-
 .day {
-	color:darkblue
+  color: darkblue;
 }
-
 .weekly {
-	display: flex;
-	border: solid black;
-	border-width: 2px;
-	flex-wrap:wrap;
-	justify-content:center;
-	margin-top: 5px;
-	padding: 20px;
+  display: flex;
+  border: solid black;
+  border-width: 2px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 20px;
 }
-
 .weekly h2 {
-	font-size: 2rem;
-	text-decoration: underline;
+  font-size: 2rem;
+  text-decoration: underline;
 }
-
-
 .text-content {
-	margin-top: 10px;
-	padding: 15px;
+  margin-top: 10px;
+  padding: 15px;
 }
-
 .text-content p {
-	margin-top: 0px;
+  margin-top: 0px;
 }
-
 .text-content h4 {
-	font-size: 1.75rem;
+  font-size: 1.75rem;
 }
-
 .weeklytitle {
-	color: darkblue;
+  color: darkblue;
 }
-
 .weeklyp {
-	font-weight:bold;
-	font-style: italic;
-	text-align: center;
-	color: darkmagenta;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: darkmagenta;
 }
-
 footer {
-	display:flex;
-	justify-content:center;
-	margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
 }
-
 p {
-	margin-top: 20px;
+  margin-top: 20px;
 }
-
-
-
-
-
-
-
+header {
+  margin: 20px 0;
+  padding: 0px 5%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+nav a {
+  color: #EF62A4;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  nav a {
+    margin: 10px 0;
+    font-size: 2rem;
+  }
+}
+header nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.Namepic {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid black;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .profilepic {
+    display: none;
+  }
+}
+h1 {
+  font-size: 3rem;
+  color: #EF62A4;
+}
+.IntroSkills h3 {
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 2rem;
+  color: #EF62A4;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.75rem;
+  color: black;
+  font-weight: bold;
+}
+.IntroSkills {
+  display: flex;
+  border-top: solid black;
+  padding: 30px 0%;
+}
+.topcontent {
+  width: 50%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.topcontent a {
+  color: #EF62A4;
+}
+.profilepic {
+  width: auto;
+  height: 300px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 30px;
+  align-self: center;
+  border: solid black;
+}
+.middletext {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+.middletext button {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #EF62A4;
+  color: #FFFFFF;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .middletext {
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 0%;
+    padding-bottom: 20px;
+  }
+  .middletext h1 {
+    margin-top: 20px;
+  }
+}
+ul.skills {
+  margin-top: 20px;
+  list-style-type: square;
+}
+.Workexperience {
+  border-top: solid black;
+  padding: 30px 7%;
+}
+.Workexperience a {
+  color: #EF62A4;
+}
+.workcontent {
+  margin-top: 20px;
+}
+.workcontent p {
+  margin: 5px 0;
+}
+.workcontent h4 {
+  margin-bottom: 5px;
+}
+.languages h3 {
+  margin-bottom: 20px;
+}
+.languages {
+  padding: 0px 7%;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}

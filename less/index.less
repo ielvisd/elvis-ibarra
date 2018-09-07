@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+		height: 100%;
+		font-size: 62.5%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Titillium Web',Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+// Variables Here
+@mainColor: black;
+@accentColor: @villains;
+@font-color: @villains;
+@button-bg: @eastern-blue;
+@main-bg:  @white;
+@navigation-border: @silver;
+@footer-bg: @sandy-beach;
+@bg: @eastern-blue;
+@color: @sandy-beach;
+
+@fontSize: 1.6rem;
+@fontStack: Helvetica, Arial, sans-serif;
+
+@mobileValue: 500px;
+
+// Colors
+@white: #FFFFFF;
+@villains: #EF62A4;
+@silver: #C0C0C0;
+@shark: #212529;
+@eastern-blue: #17A2B8;
+@sandy-beach: #FFEBCD;
+
+// Media Queries
+@tablet: (max-width: 800px);
+@phone: (max-width: 500px);
+
+// Mixin
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-font() {
+  .center;
+  font-size: 6.7rem;
+}
+
+
+// Parametric Mixin
+
+// .custom-layout(center, flex-start);
+.custom-layout(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.container {
+	border: solid black;
+  max-width: 880px;
+  margin: 0 auto;
+  color: @mainColor;
+  font-size: @fontSize;
+  font-family: @fontStack;
+}
+
+// Level 3
+// .border-radius(20px);
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+.custom-button(@bg, @color) {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  .border-radius(10px);
+  text-decoration: none;
+  background: @bg;
+  color: @color;
+  text-align:center;
+}
+
+// NESTING: Avoid nesting more than 1 section deep
+
+/* Start ElvisIbarra.com Here */
+
+.container {
+  max-width: 880px;
+  /* TB LR */
+	margin: 0 auto;
+	font-size:1.6rem;
+}
+
+.title {
+	display:flex;
+	justify-content:center;
+	margin-top: 25px;
+}
+
+/* header */
+header {
+	display:flex;
+	justify-content:space-around;
+	margin-top: 15px;
+}
+
+nav {
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+}	
+
+@media( max-width: 500px ) {
+	nav {
+		flex-direction:column;
+		align-items: center;
+		padding-bottom: 10px;
+		border-bottom: solid black;
+	}
+}	
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	font-size: 1rem;
+}	
+
+@media( max-width: 500px ) {}
+	nav a {
+	margin:10px 0;
+	font-size: 2rem;
+	}
+
+header nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+	margin-right: 0;
+}
+
+.title {
+	font-size: 3rem;
+	color: darkmagenta;
+}
+
+.cs14 {
+	color: crimson
+}
+
+.day {
+	color:darkblue
+}
+
+.weekly {
+	display: flex;
+	border: solid black;
+	border-width: 2px;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin-top: 5px;
+	padding: 20px;
+}
+
+.weekly h2 {
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+
+.text-content {
+	margin-top: 10px;
+	padding: 15px;
+}
+
+.text-content p {
+	margin-top: 0px;
+}
+
+.text-content h4 {
+	font-size: 1.75rem;
+}
+
+.weeklytitle {
+	color: darkblue;
+}
+
+.weeklyp {
+	font-weight:bold;
+	font-style: italic;
+	text-align: center;
+	color: darkmagenta;
+}
+
+footer {
+	display:flex;
+	justify-content:center;
+	margin-top: 35px;
+}
+
+p {
+	margin-top: 20px;
+}
+
+//Start of Resume Page// 
+header {
+	margin: 20px 0;
+	padding: 0px 5%;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	@media( max-width: 500px ) {
+		flex-direction: column;
+		align-items: center;
+		}
+}	
+
+nav a {
+	color: @accentColor;
+	text-decoration: none;
+	@media( max-width: 500px ) {
+		margin:10px 0;
+		font-size: 2rem;
+		}
+}	
+
+header nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.Namepic {
+	display:flex;;
+	justify-content:space-between;
+	border-top: solid black;
+	font-weight: bold;
+}
+
+.profilepic { 
+		@media( max-width: 500px ) {
+		display:none;
+		}
+	}	
+
+h1 {
+	font-size: 3rem;
+	color: @accentColor;
+}
+
+.IntroSkills h3 {	
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 2rem;
+	color:@accentColor;
+	font-weight: bold;
+}	
+
+h4 {
+	font-size: 1.75rem;
+	color:black;
+	font-weight: bold;
+}	
+
+.IntroSkills {
+	display:flex;
+	border-top: solid black;
+	padding: 30px 0%;
+}
+
+.topcontent {
+	width:50%;
+	padding-left: 7%;
+	padding-right: 7%;
+	a {
+		color: @accentColor;
+		}
+}
+
+.profilepic {
+	width: auto;
+	height: 300px;
+	.border-radius(50%);
+	margin: 30px;
+	align-self:center;
+	border: solid black;
+}
+
+.middletext {
+	.center;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	justify-content: space-around;
+	padding-top: 10%;
+	padding-bottom: 15%;
+
+	button {
+		.custom-button(@villains, @white)
+	}
+
+	@media( max-width: 500px ) {
+		h1 {
+			margin-top: 20px;
+		}
+		justify-content: space-around;
+		height: 150px;
+		padding-top: 0%;
+		padding-bottom: 20px;
+	}
+}
+
+ul.skills {
+	margin-top: 20px;
+	list-style-type: square;
+}
+
+.Workexperience {
+	border-top: solid black;
+	padding: 30px 7%;
+
+	a {
+	color: @accentColor;
+	}
+}
+
+.workcontent {
+	margin-top: 20px;
+	p {
+		margin: 5px 0;
+	}
+}
+
+.workcontent h4{	
+	margin-bottom: 5px;
+}
+
+.languages h3{	
+	margin-bottom: 20px;
+}
+
+.languages {
+	padding: 0px 7%;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
