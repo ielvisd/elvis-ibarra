@@ -288,6 +288,13 @@ header nav a:hover {
   border-top: solid black;
   font-weight: bold;
 }
+.Namepic input[type=submit] {
+  background-color: #EF62A4;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 1.5rem;
+}
 @media (max-width: 500px) {
   .profilepic {
     display: none;
