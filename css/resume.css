@@ -221,7 +221,7 @@ h4 {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  margin-right: 30px;
+  margin: 30px;
   align-self: center;
   border: solid #EF62A4;
 }
@@ -232,8 +232,8 @@ h4 {
   flex-direction: column;
   width: 100%;
   justify-content: space-around;
-  padding-top: 17%;
-  padding-bottom: 17%;
+  padding-top: 10%;
+  padding-bottom: 15%;
 }
 .middletext button {
   border: none;
