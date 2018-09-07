@@ -165,6 +165,7 @@ nav a {
 @media (max-width: 500px) {
   nav a {
     margin: 10px 0;
+    font-size: 2rem;
   }
 }
 header nav a:hover {
@@ -206,8 +207,11 @@ h4 {
 }
 .topcontent {
   width: 50%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.topcontent a {
+  color: #EF62A4;
 }
 .profilepic {
   -webkit-border-radius: 50%;
@@ -227,6 +231,20 @@ h4 {
   padding-top: 17%;
   padding-bottom: 17%;
 }
+.middletext button {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #EF62A4;
+  color: #FFFFFF;
+  text-align: center;
+}
 @media (max-width: 500px) {
   .middletext {
     justify-content: space-around;
@@ -244,6 +262,9 @@ ul.skills {
 .Workexperience {
   border-top: solid black;
   padding: 30px 7%;
+}
+.Workexperience a {
+  color: #EF62A4;
 }
 .workcontent {
   margin-top: 20px;

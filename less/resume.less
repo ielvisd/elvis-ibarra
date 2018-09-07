@@ -161,6 +161,7 @@ nav a {
 	text-decoration: none;
 	@media( max-width: 500px ) {
 		margin:10px 0;
+		font-size: 2rem;
 		}
 }	
 
@@ -211,8 +212,11 @@ h4 {
 
 .topcontent {
 	width:50%;
-	padding-left: 10%;
-	padding-right:10%;
+	padding-left: 7%;
+	padding-right: 7%;
+	a {
+		color: @accentColor;
+		}
 }
 
 .profilepic {
@@ -229,6 +233,10 @@ h4 {
 	padding-top: 17%;
 	padding-bottom: 17%;
 
+	button {
+		.custom-button(@villains, @white)
+	}
+
 	@media( max-width: 500px ) {
 		h1 {
 			margin-top: 20px;
@@ -237,7 +245,7 @@ h4 {
 		height: 150px;
 		padding-top: 0%;
 		padding-bottom: 20px;
-		}
+	}
 }
 
 ul.skills {
@@ -247,6 +255,10 @@ ul.skills {
 .Workexperience {
 	border-top: solid black;
 	padding: 30px 7%;
+
+	a {
+	color: @accentColor;
+	}
 }
 
 .workcontent {
