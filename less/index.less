@@ -293,121 +293,115 @@ footer {
 
 
 //Start of Resume Page// 
-header {
+.resume header {
 	margin: 20px 0;
 	padding: 0px 5%;
 	width: 100%;
-}
-	
-nav {
+	nav {
 		display: flex;
 		justify-content: space-between;
 		@media( max-width: 500px ) {
 			flex-direction: column;
 			align-items: center;
 		}
-}	
-	a {
-		color: @accentColor;
-		text-decoration: none;
-		@media( max-width: 500px ) {
-			margin:10px 0;
-			font-size: 2rem;
+		a {
+			color: @accentColor;
+			text-decoration: none;
+			@media( max-width: 500px ) {
+				margin:10px 0;
+				font-size: 2rem;
+			}
 		}
-	}
-	
-	a:hover {
-		text-decoration: underline;
-		color: black;
+		a:hover {
+			text-decoration: underline;
+			color: black;
+		}	
 	}	
+}
 
 .Namepic {
 	display:flex;;
 	justify-content:space-between;
 	border-top: solid black;
 	font-weight: bold;
-	a {
-		color: white;
-		border: solid red;
-	}
-}
-
-.profilepic { 
+	.profilepic { 
 		@media( max-width: 500px ) {
 		display:none;
 		}
 	}	
-
-h1 {
-	font-size: 3rem;
-	color: @accentColor;
+	h1 {
+		font-size: 3rem;
+		color: @accentColor;
+	}
+	.profilepic {
+		width: auto;
+		height: 300px;
+		.border-radius(50%);
+		margin: 30px;
+		align-self:center;
+		border: solid black;
+	}
+	.middletext {
+		.center;
+		display:flex;
+		flex-direction:column;
+		width:100%;
+		justify-content: space-around;
+		padding-top: 10%;
+		padding-bottom: 15%;
+	
+		button {
+			.custom-button(@villains, @white)
+		}
+	
+		@media( max-width: 500px ) {
+			justify-content: space-around;
+			height: 150px;
+			padding-top: 0%;
+			padding-bottom: 20px;
+		}
+	}
 }
 
-.IntroSkills h3 {	
-	margin-bottom: 5px;
-}
-
-h3 {
+.resume h3 {
 	font-size: 2rem;
 	color:@accentColor;
 	font-weight: bold;
 }	
 
-h4 {
+.resume h4 {
 	font-size: 1.75rem;
 	color:black;
 	font-weight: bold;
 }	
 
-.IntroSkills {
-	display:flex;
-	border-top: solid black;
-	padding: 30px 0%;
-}
-
-.topcontent {
-	width:50%;
-	padding-left: 7%;
-	padding-right: 7%;
-	a {
-		color: @accentColor;
+.main-content {
+	.IntroSkills {
+		display:flex;
+		border-top: solid black;
+		padding: 30px 0%;
+		h3 {	
+			margin-bottom: 5px;
+			font-size: 2rem;
+			color:@accentColor;
+			font-weight: bold;
 		}
-}
-
-.profilepic {
-	width: auto;
-	height: 300px;
-	.border-radius(50%);
-	margin: 30px;
-	align-self:center;
-	border: solid black;
-}
-
-.middletext {
-	.center;
-	display:flex;
-	flex-direction:column;
-	width:100%;
-	justify-content: space-around;
-	padding-top: 10%;
-	padding-bottom: 15%;
-
-	button {
-		.custom-button(@villains, @white)
 	}
-
-	@media( max-width: 500px ) {
-		justify-content: space-around;
-		height: 150px;
-		padding-top: 0%;
-		padding-bottom: 20px;
+	.topcontent {
+		width:50%;
+		padding-left: 7%;
+		padding-right: 7%;
+		a {
+			color: @accentColor;
+			}
+		ul.skills {
+			margin-top: 0px;		
+			list-style-type: square;
+		}
 	}
 }
 
-ul.skills {
-	margin-top: 20px;
-	list-style-type: square;
-}
+
 
 .Workexperience {
 	border-top: solid black;
@@ -416,25 +410,22 @@ ul.skills {
 	a {
 	color: @accentColor;
 	}
-}
-
-.workcontent {
-	margin-top: 20px;
-	p {
-		margin: 5px 0;
+	.workcontent {
+		margin-top: 20px;
+		p {
+			margin: 5px 0;
+		}
+		h4{	
+			margin-bottom: 5px;
+		}
 	}
-}
-
-.workcontent h4{	
-	margin-bottom: 5px;
-}
-
-.languages h3{	
-	margin-bottom: 20px;
 }
 
 .languages {
 	padding: 0px 7%;
+	h3{	
+		margin-bottom: 20px;
+	}
 }
 
 footer {
