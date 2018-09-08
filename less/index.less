@@ -158,6 +158,8 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	justify-content:center;
 	margin-top: 25px;
+	color: darkblue;
+	font-size:4rem;
 }
 
 /* header */
@@ -207,67 +209,66 @@ header nav a:last-child {
 	margin-right: 0;
 }
 
-.title {
-	font-size: 3rem;
-	color: darkmagenta;
-}
-
-.cs14 {
-	color: crimson
-}
-
-.day {
-	color:darkblue
-}
-
 .weekly {
 	display: flex;
 	border-width: 2px;
 	flex-wrap:wrap;
 	justify-content:center;
 	margin-top: 5px;
-	padding: 20px;
-}
-
-.weekly h2 {
-	font-size: 2rem;
-	text-decoration: underline;
-}
-
-
-.text-content {
-	margin-top: 10px;
-	padding: 15px;
-}
-
-.text-content p {
-	margin-top: 0px;
-}
-
-.text-content h4 {
-	font-size: 1.75rem;
-}
-
-.weeklytitle {
-	color: darkblue;
+	padding: 20px 3%;
+	border-top: dashed darkblue;
+	.intro {
+		margin-top:0px;
+	}
+	.cs14 {
+		color:@villains;
+	}
+	.weeklytitle {
+		font-size: 2rem;
+		color: darkblue;
+	}
+	.daytags {
+		color: @villains;
+	}
+	h4 {
+		margin-top:0px;
+	}
+	.day {
+		color:darkblue;
+	}
+	p {
+		line-height:1.35;
+		text-indent:40px;
+	}
+	h2 {
+		font-size: 2rem;
+		text-decoration: underline;
+	}
+	.text-content {
+		margin-top: 20px;
+		p {
+			margin-top: 0px;
+		}
+		h4 {
+			font-size: 1.75rem;
+		}
+	}
+	
 }
 
 .weeklyp {
+	margin-top:20px;
+	color: darkblue;
 	font-weight:bold;
-	font-style: italic;
-	text-align: center;
-	color: darkmagenta;
 }
 
 footer {
 	display:flex;
 	justify-content:center;
-	margin-top: 35px;
-}
-
-p {
 	margin-top: 20px;
 }
+
+
 
 //Start of Resume Page// 
 header {
