@@ -166,6 +166,7 @@ h5 {
   margin-top: 25px;
   color: darkblue;
   font-size: 4rem;
+  padding-top: 10px;
 }
 /* header */
 header {
@@ -197,13 +198,26 @@ nav {
   }
 }
 nav a {
-  color: gray;
+  color: #EF62A4;
   text-decoration: none;
-  font-size: 1rem;
-}
-nav a {
-  margin: 10px 0;
   font-size: 2rem;
+  padding: 10px 0;
+}
+@media (max-width: 500px) {
+  nav a {
+    margin: 10px 0;
+    font-size: 2rem;
+  }
+  .lambda {
+    font-size: 1.6rem;
+  }
+  .title {
+    margin-top: 240px;
+  }
+  .Namepic {
+    margin-top: 290px;
+    padding-top: 20px;
+  }
 }
 header nav a:hover {
   text-decoration: underline;
@@ -285,17 +299,17 @@ nav {
     align-items: center;
   }
 }
-nav a {
+a {
   color: #EF62A4;
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  nav a {
+  a {
     margin: 10px 0;
     font-size: 2rem;
   }
 }
-header nav a:hover {
+a:hover {
   text-decoration: underline;
   color: black;
 }
@@ -386,9 +400,6 @@ h4 {
     height: 150px;
     padding-top: 0%;
     padding-bottom: 20px;
-  }
-  .middletext h1 {
-    margin-top: 20px;
   }
 }
 ul.skills {
