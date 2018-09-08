@@ -163,7 +163,7 @@ h5 {
 .title {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 30px;
   color: darkblue;
   font-size: 4rem;
   padding-top: 10px;
@@ -264,6 +264,7 @@ header nav a:last-child {
 .weekly h2 {
   font-size: 2rem;
   text-decoration: underline;
+  font-weight: bold;
 }
 .weekly .text-content {
   margin-top: 20px;
