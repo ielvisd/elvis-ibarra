@@ -199,6 +199,7 @@ nav a {
 	text-decoration: none;
 	font-size: 2rem;
 	padding: 10px 0;
+	cursor: pointer;
 }	
 
 @media( max-width: 500px ) {
@@ -353,6 +354,10 @@ footer {
 	
 		button {
 			.custom-button(@villains, @white)
+		}
+		
+		button:hover {
+			background: solid blue;
 		}
 	
 		@media( max-width: 500px ) {
