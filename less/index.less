@@ -200,7 +200,8 @@ header {
 			@media @phone{
 				margin:5px 0;
 				font-size: 2rem;
-		}	
+			}
+		}
 	}
 }	
 
@@ -309,7 +310,7 @@ footer {
 			color: @accentColor;
 			text-decoration: none;
 			@media( max-width: 500px ) {
-				margin:10px 0;
+				margin:5px 0;
 				font-size: 2rem;
 			}
 		}
@@ -326,6 +327,12 @@ footer {
 	border-top: solid black;
 	font-weight: bold;
 	.profilepic { 
+		width: auto;
+		height: 300px;
+		.border-radius(50%);
+		margin: 30px;
+		align-self:center;
+		border: solid black;
 		@media( max-width: 500px ) {
 		display:none;
 		}
@@ -333,14 +340,6 @@ footer {
 	h1 {
 		font-size: 3rem;
 		color: @accentColor;
-	}
-	.profilepic {
-		width: auto;
-		height: 300px;
-		.border-radius(50%);
-		margin: 30px;
-		align-self:center;
-		border: solid black;
 	}
 	.middletext {
 		.center;
@@ -359,12 +358,15 @@ footer {
 			background: solid blue;
 		}
 	
-		@media( max-width: 500px ) {
+		@media @phone {
 			justify-content: space-around;
 			height: 150px;
 			padding-top: 0%;
 			padding-bottom: 20px;
 		}
+	}
+	@media @phone {
+		margin-top: 230px;
 	}
 }
 
@@ -372,13 +374,13 @@ footer {
 	font-size: 2rem;
 	color:@accentColor;
 	font-weight: bold;
+	h4 {
+		font-size: 1.75rem;
+		color:black;
+		font-weight: bold;
+	}	
 }	
 
-.resume h4 {
-	font-size: 1.75rem;
-	color:black;
-	font-weight: bold;
-}	
 
 .main-content {
 	.IntroSkills {
@@ -406,12 +408,9 @@ footer {
 	}
 }
 
-
-
 .Workexperience {
 	border-top: solid black;
 	padding: 30px 7%;
-
 	a {
 	color: @accentColor;
 	}

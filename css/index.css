@@ -196,19 +196,21 @@ header nav {
     padding-bottom: 10px;
     border-bottom: solid black;
   }
+  nav a {
+    color: #EF62A4;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px 0;
+    cursor: pointer;
+  }
 }
-nav a {
-  color: #EF62A4;
-  text-decoration: none;
-  font-size: 2rem;
-  padding: 10px 0;
-  cursor: pointer;
-}
-@media (max-width: 500px) {
+@media (max-width: 500px) and (max-width: 500px) {
   nav a {
     margin: 5px 0;
     font-size: 2rem;
   }
+}
+@media (max-width: 500px) {
   .lambda {
     font-size: 1.6rem;
   }
@@ -308,7 +310,7 @@ footer {
 }
 @media (max-width: 500px) {
   .resume header nav a {
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 2rem;
   }
 }
@@ -322,15 +324,6 @@ footer {
   border-top: solid black;
   font-weight: bold;
 }
-@media (max-width: 500px) {
-  .Namepic .profilepic {
-    display: none;
-  }
-}
-.Namepic h1 {
-  font-size: 3rem;
-  color: #EF62A4;
-}
 .Namepic .profilepic {
   width: auto;
   height: 300px;
@@ -342,6 +335,15 @@ footer {
   margin: 30px;
   align-self: center;
   border: solid black;
+}
+@media (max-width: 500px) {
+  .Namepic .profilepic {
+    display: none;
+  }
+}
+.Namepic h1 {
+  font-size: 3rem;
+  color: #EF62A4;
 }
 .Namepic .middletext {
   justify-content: center;
@@ -378,12 +380,17 @@ footer {
     padding-bottom: 20px;
   }
 }
+@media (max-width: 500px) {
+  .Namepic {
+    margin-top: 230px;
+  }
+}
 .resume h3 {
   font-size: 2rem;
   color: #EF62A4;
   font-weight: bold;
 }
-.resume h4 {
+.resume h3 h4 {
   font-size: 1.75rem;
   color: black;
   font-weight: bold;
