@@ -189,25 +189,33 @@ header nav {
   max-width: 880px;
   /* Full width */
 }
+header nav a {
+  color: #EF62A4;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  header nav a {
+    margin: 5px 0;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid black;
+  }
+}
 @media (max-width: 500px) {
   nav {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
     border-bottom: solid black;
-  }
-  nav a {
-    color: #EF62A4;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 10px 0;
-    cursor: pointer;
-  }
-}
-@media (max-width: 500px) and (max-width: 500px) {
-  nav a {
-    margin: 5px 0;
-    font-size: 2rem;
   }
 }
 @media (max-width: 500px) {

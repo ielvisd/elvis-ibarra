@@ -179,11 +179,26 @@ header {
 		position: fixed; /* Set the navbar to fixed position */
 		top: 0; /* Position the navbar at the top of the page */
 		max-width: 880px; /* Full width */
+		a {
+				color:@villains;
+				text-decoration: none;
+				font-size: 2rem;
+				padding: 10px 0;
+				cursor: pointer;
+				@media @phone{
+					margin:5px 0;
+					font-size: 2rem;
+				}
+		}
+
+		@media @phone {
+				flex-direction:column;
+				align-items: center;
+				padding-bottom: 10px;
+				border-bottom: solid black;
+		}
 	}
 }
-
-
-
 
 @media @phone {
 	nav {
@@ -191,18 +206,7 @@ header {
 		align-items: center;
 		padding-bottom: 10px;
 		border-bottom: solid black;
-		a {
-			color:@villains;
-			text-decoration: none;
-			font-size: 2rem;
-			padding: 10px 0;
-			cursor: pointer;
-			@media @phone{
-				margin:5px 0;
-				font-size: 2rem;
-			}
-		}
-	}
+	}	
 }	
 
 
