@@ -314,7 +314,7 @@ footer {
 }
 .resume header a {
   color: #EF62A4;
-  text-decoration: none;
+  text-decoration: underline;
 }
 @media (max-width: 500px) {
   .resume header a {
@@ -324,7 +324,7 @@ footer {
 }
 .resume header a:hover {
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 .resume h3 {
   font-size: 2rem;
