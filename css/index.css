@@ -169,12 +169,12 @@ h5 {
   padding-top: 10px;
 }
 /* header */
-header {
+.rest {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
 }
-header nav {
+.rest nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -189,21 +189,21 @@ header nav {
   max-width: 880px;
   /* Full width */
 }
-header nav a {
+.rest nav a {
   color: #EF62A4;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 2rem;
   padding: 10px 0;
   cursor: pointer;
 }
 @media (max-width: 500px) {
-  header nav a {
+  .rest nav a {
     margin: 5px 0;
     font-size: 2rem;
   }
 }
 @media (max-width: 500px) {
-  header nav {
+  .rest nav {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
@@ -314,7 +314,7 @@ footer {
 }
 .resume header a {
   color: #EF62A4;
-  text-decoration: underline;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .resume header a {
@@ -452,4 +452,90 @@ footer {
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
+}
+/* index header*/
+.indexcontainer {
+  border: none;
+}
+.indexheader {
+  margin-top: 200px;
+}
+.indexheader nav {
+  max-width: 880px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: space-around;
+  padding: 0 0%;
+  background: black;
+  /* Full width */
+}
+.indexheader nav a {
+  width: 50%;
+  text-align: center;
+  border: dashed #EF62A4;
+  color: #EF62A4;
+  font-size: 4rem;
+  padding: 10px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .indexheader nav a {
+    margin: 5px 0;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .indexheader nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid black;
+  }
+}
+.indexcontainer a {
+  text-decoration: none;
+}
+.myname {
+  font-size: 7rem;
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: black;
+}
+.indexnav {
+  max-width: 880px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 0%;
+  background: black;
+  /* Full width */
+  margin-bottom: 200px;
+}
+.indexnav a {
+  width: 50%;
+  color: #EF62A4;
+  text-align: center;
+  border: dashed #EF62A4;
+  font-size: 4rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .indexnav a {
+    margin: 5px 0;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .indexnav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid black;
+  }
 }

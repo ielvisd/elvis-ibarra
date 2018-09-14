@@ -163,8 +163,9 @@ h1, h2, h3, h4, h5 {
 	padding-top:10px;
 }
 
+
 /* header */
-header {
+.rest {
 	display:flex;
 	justify-content:space-around;
 	margin-top: 15px;
@@ -181,7 +182,7 @@ header {
 		max-width: 880px; /* Full width */
 		a {
 				color:@villains;
-				text-decoration: underline;
+				text-decoration: none;
 				font-size: 2rem;
 				padding: 10px 0;
 				cursor: pointer;
@@ -314,7 +315,7 @@ footer {
 		}	
 		a {
 			color: @accentColor;
-			text-decoration: underline;
+			text-decoration: none;
 			@media( max-width: 500px ) {
 				margin:5px 0;
 				font-size: 2rem;
@@ -437,6 +438,87 @@ footer {
 	}
 }	
 
+/* index header*/
+.indexcontainer {
+	border: none;
+}
+.indexheader {
+	margin-top: 200px;
+	nav {
+		max-width: 880px;
+		display: flex;
+		flex-wrap:wrap;
+		margin: 0px;
+		justify-content: space-around;
+		padding: 0 0%;
+		background:black;/* Full width */
+		a {
+				width: 50%;
+				text-align:center;
+				border: dashed @villains;
+				color:@villains;
+				font-size: 4rem;
+				padding: 10px 0;
+				cursor: pointer;
+				text-decoration: none;
+				@media @phone{
+					margin:5px 0;
+					font-size: 2rem;
+				}
+		}
+
+		@media @phone {
+				flex-direction:column;
+				align-items: center;
+				padding-bottom: 10px;
+				border-bottom: solid black;
+		}
+	}
+}
+
+.indexcontainer a {
+	text-decoration: none;
+}
+
+.myname {
+	font-size: 7rem;
+	margin: 0px;
+	font-family: 'Courier New', Courier, monospace; 
+	padding-top:  30px;
+	padding-bottom:  40px;
+	text-align:center;
+	color: black;
+}
+
+.indexnav {
+	max-width: 880px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding: 0 0%;
+	background:black;;/* Full width */
+	margin-bottom: 200px;
+	a {
+			width: 50%;
+			color:@villains;
+			text-align: center;
+			border: dashed @villains;
+			font-size: 4rem;
+			padding: 10px 0;
+			cursor: pointer;
+			@media @phone{
+				margin:5px 0;
+				font-size: 2rem;
+			}
+	}
+
+	@media @phone {
+			flex-direction:column;
+			align-items: center;
+			padding-bottom: 10px;
+			border-bottom: solid black;
+	}
+}
 
 
 
