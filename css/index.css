@@ -167,6 +167,7 @@ h5 {
   color: darkblue;
   font-size: 4rem;
   padding-top: 10px;
+  border: solid black;
 }
 /* header */
 .rest {
@@ -505,7 +506,6 @@ footer {
   padding-bottom: 40px;
   text-align: center;
   color: black;
-  border: solid black;
 }
 .indexnav {
   max-width: 880px;
