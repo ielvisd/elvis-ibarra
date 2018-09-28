@@ -160,10 +160,15 @@ h5 {
   margin: 0 auto;
   font-size: 1.6rem;
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 350px;
+  }
+}
 .title {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 75px;
   color: darkblue;
   font-size: 4rem;
   padding-top: 10px;
@@ -178,7 +183,8 @@ h5 {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 0 2%;
+  flex-direction: column;
+  align-items: center;
   background: black;
   border: solid black;
   overflow: hidden;
@@ -189,6 +195,11 @@ h5 {
   max-width: 880px;
   /* Full width */
 }
+@media (max-width: 500px) {
+  .rest nav {
+    max-width: 350px;
+  }
+}
 .rest nav a {
   color: #EF62A4;
   text-decoration: none;
@@ -198,7 +209,7 @@ h5 {
 }
 @media (max-width: 500px) {
   .rest nav a {
-    margin: 5px 0;
+    margin: 0px auto;
     font-size: 2rem;
   }
 }
@@ -206,7 +217,6 @@ h5 {
   .rest nav {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
     border-bottom: solid black;
   }
 }
@@ -214,7 +224,6 @@ h5 {
   nav {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
     border-bottom: solid black;
   }
 }
@@ -223,7 +232,7 @@ h5 {
     font-size: 1.6rem;
   }
   .title {
-    margin-top: 200px;
+    margin-top: 70px;
   }
   .Namepic {
     margin-top: 290px;
@@ -269,7 +278,7 @@ header nav a:last-child {
   color: darkblue;
 }
 .weekly p {
-  line-height: 1.35;
+  line-height: 2.5rem;
   text-indent: 40px;
 }
 .weekly h2 {
@@ -350,7 +359,7 @@ footer {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  margin: 30px;
+  margin: 75px 5%;
   align-self: center;
   border: solid black;
 }
@@ -400,7 +409,7 @@ footer {
 }
 @media (max-width: 500px) {
   .resume .Namepic {
-    margin-top: 230px;
+    margin-top: 75px;
   }
 }
 .resume .main-content .IntroSkills {
@@ -453,90 +462,92 @@ footer {
   text-align: center;
   font-weight: bold;
 }
-/* index header*/
-.indexcontainer {
-  border: none;
-}
-.indexheader {
-  margin-top: 200px;
-}
-.indexheader nav {
-  max-width: 880px;
+.halfnav {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0px;
-  justify-content: space-around;
-  padding: 0 0%;
-  background: black;
-  /* Full width */
+  justify-content: space-between;
+  width: 100%;
 }
-.indexheader nav a {
-  width: 50%;
-  text-align: center;
-  border: dashed #EF62A4;
-  color: #EF62A4;
-  font-size: 4rem;
-  padding: 10px 0;
-  cursor: pointer;
-  text-decoration: none;
+.halfnav a {
+  margin: 0 auto;
 }
-@media (max-width: 500px) {
-  .indexheader nav a {
-    margin: 5px 0;
-    font-size: 2rem;
-  }
+.halfnav.first {
+  padding: 0 10%;
 }
-@media (max-width: 500px) {
-  .indexheader nav {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: solid black;
-  }
+.halfnav.second {
+  border-top: dashed #EF62A4;
+  padding: 0 3%;
 }
-.indexcontainer a {
-  text-decoration: none;
-}
-.myname {
-  font-size: 7rem;
-  margin: 0px;
-  font-family: 'Courier New', Courier, monospace;
-  padding-top: 30px;
-  padding-bottom: 40px;
-  text-align: center;
-  color: black;
+.container.home {
   border: solid black;
 }
-.indexnav {
-  max-width: 880px;
+.container.home .homenamepic {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0 0%;
-  background: black;
-  /* Full width */
-  margin-bottom: 200px;
-}
-.indexnav a {
-  width: 50%;
-  color: #EF62A4;
-  text-align: center;
-  border: dashed #EF62A4;
-  font-size: 4rem;
-  padding: 10px 0;
-  cursor: pointer;
+  flex-direction: column;
+  margin-top: 60px;
 }
 @media (max-width: 500px) {
-  .indexnav a {
-    margin: 5px 0;
-    font-size: 2rem;
+  .container.home .homenamepic {
+    margin-top: 20px;
   }
 }
+.container.home .profilepic {
+  width: auto;
+  height: 300px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  align-self: center;
+  margin: 30px 0px;
+}
 @media (max-width: 500px) {
-  .indexnav {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: solid black;
+  .container.home .profilepic {
+    margin: 30px 0px;
+  }
+}
+.projects {
+  margin-top: 90px;
+  display: flex;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .projects {
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+.projects .middletext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding-top: 50px;
+  font-size: 1.6rem;
+}
+.projects .middletext h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+@media (max-width: 500px) {
+  .projects .middletext {
+    width: 100%;
+  }
+}
+.projects button {
+  padding: 30px 20%;
+  background: #5E9FB9;
+}
+.projects button a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+.projects .projectimgdiv .projectimg {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .projects .projectimgdiv {
+    display: none;
   }
 }

@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Elvis Ibarra</title>
+  <title>Home Page</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
@@ -19,23 +19,37 @@
 </head>
 
 <body>
-  <div></div>
-  <div class="container indexcontainer">
-    <header class = "indexheader">
-      <nav class = indexnav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="resume.html">Resume</a>
-        
+  <div class="container home">
+    <header class="rest">
+      <nav class='normalnav'>
+        <div class='halfnav first'>
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="resume.html">Resume</a>
+        </div>
+
+        <div class='halfnav second'>
+          <a href="lambdablog.html">Lambda Blog</a>
+          <a href="projects.html">Projects</a>
+          <a onclick="location.href='mailto:ielvisd@gmail.com';">Contact</a>
+        </div>
       </nav>
     </header>
-    <h1 class="myname">Elvis Ibarra</h1>
-    <nav class = indexnav>
-        <a href="https://twitter.com/ElToritoElvis" target="_blank">@ElToritoElvis</a>
-        <a href="lambdablog.html">Lambda Blog</a>
-        <a onclick="location.href='mailto:ielvisd@gmail.com';">Contact</a>
-    </nav>
-    
-  <div></div>
-  </div>
+
+    <div class = 'homenamepic'>       
+      <h1 class="title">Elvis Ibarra</h1>
+      <img class="profilepic" src="images/ElvisBanksy.jpg" alt="Image of Elvis Ibarra and his chocolate lab Banksy.">
+    </div>
+
+
+
+  <footer>
+    <p>&copy;Elvis Ibarra 2018</p>
+  </footer>
+
+  </div><!-- container -->
+
+  <script src="./Blog Navigation/blognav.js"></script>
+</body>
+
 </html>

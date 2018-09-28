@@ -11,7 +11,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
-  <script src="./Blog Navigation/blognav.js" async></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -22,16 +21,22 @@
 <body>
   <div class="container lambda">
     <header class="rest">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="#">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="https://twitter.com/ElToritoElvis" target="_blank">@ElToritoElvis</a>
-        <a href="lambdablog.html">Lambda Blog</a>
-        <a onclick="location.href='mailto:ielvisd@gmail.com';">Contact</a>
+      <nav class='normalnav'>
+        <div class='halfnav first'>
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="resume.html">Resume</a>
+        </div>
+
+        <div class='halfnav second'>
+          <a href="lambdablog.html">Lambda Blog</a>
+          <a href="projects.html">Projects</a>
+          <a onclick="location.href='mailto:ielvisd@gmail.com';">Contact</a>
+        </div>
       </nav>
     </header>
-    <h1 class="title">Elvis Ibarra</h1>
+
+    <h1 class="title">Lambda Blog</h1>
 
     <section class="weekly">
       <h2><span class="cs14">FSW14</span> Project Week 1 - <span class="weeklytitle">Project Week - User Interface</span></h2>
@@ -44,7 +49,7 @@
         successful. It was an intimidating task but I knew it was possible because there wasn't anything new other than
         doing everything we've done all in one project instead of as a smaller part where pieces are provided. This was
         all us from scratch other than some design files and styles. The project theme was an architectural design firm
-        - <a href = './User-Interface-Project-Week/index.html''>S&J Associates </a> - we were tasked with a mobile and desktop design of the home page and a desktop design for
+        - <a href='./User-Interface-Project-Week/index.html''>S&J Associates </a> - we were tasked with a mobile and desktop design of the home page and a desktop design for
         the services page plus the header navigation and the tab navigator in the services page. The link will take you
         to my completed project. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
           target="_blank">Lambda
@@ -53,16 +58,14 @@
         <div class="text-content">
           <h4><span class="daytags">Day 1:</span> <span class="day">Project Setup and High Hopes</span></h4>
           <p>This was the day I started to outline my project and decided to go with a mobile first approach to
-            challenge myself as every project we had done in the past was desktop first. I'm talking about whether you
-            design your mobile or desktop first which affects how the view adjusts across devices. I printed and marked
-            up my designs with HTML tags, organized my files, forked and cloned the Github project repository, built a
-            Trello board with MVP (the essential items needed to get accomplished, 5 total) and stretch goals and
-            started coding my mobile desktop page right after lunch. I finished the day with the mobile page about
-            halfway finished. I felt confident that I could get most of the project done the following day but was a
-            bit nervous that others (a small amount, but still) in my group had finished all of the main tasks in this
-            one day.</p>
-        </div>
-        <div class="text-content">
+            challenge myself as every project we had done in the past was desktop first. I'
+          m talking about whether you design your mobile or desktop first which affects how the view adjusts across
+          devices. I printed and marked up my designs with HTML tags, organized my files, forked and cloned the Github
+          project repository, built a Trello board with MVP (the essential items needed to get accomplished, 5 total)
+          and stretch goals and started coding my mobile desktop page right after lunch. I finished the day with the
+          mobile page about halfway finished. I felt confident that I could get most of the project done the following
+          day but was a bit nervous that others (a small amount, but still) in my group had finished all of the main
+          tasks in this one day.</p> </div> <div class="text-content">
           <h4><span class="daytags">Day 2:</span> <span class="day">The Main Page Mobile and Desktop Versions Take
               Shape </span></h4>
           <p>On this second day I struggled to finish the mobile and desktop pages by the end of the day. I truly
@@ -71,271 +74,279 @@
             ago and solidifying some of that knowledge that I had only recently gained. Even though I was done with 2/5
             tasks I now felt like I was falling behind but was pretty sure that I could finish the project with the 2
             days I had left but wasn't so sure that I could get it done by the following day anymore.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 3:</span> <span class="day">Services Desktop is Finished and I Get Stuck Trying
-              to Get My Navigation Overlay to Close</span></h4>
-          <p>A breakthrough day for me. I finished most of my HTML and LESS for all the sites at all the breakpoints
-            necessary for MVP and I started to focus on building the two functional Javascript components. I mostly
-            finished one where the user clicks on the navigation and an overlay menu opens and then it closes when the
-            user clicks the X. Sounds simple but I got stuck not getting the overlay to close and went to sleep
-            dreaming about solutions. I found one as I was drifting to bed but was reminded of it the following day. I
-            knew I had the whole day to implement a functional component that I had succesfully done in the past and to
-            debug my almost done main navigator. I was 80% confident I would finish the project at all by the deadline.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 4:</span> <span class="day">Pulling it All Together and Demo Day </span></h4>
-          <p>I woke up and got right to coding knowing that at 2pm was Demo Time. I reached out to my Project Manager
-            and told her of my progress and said that I might have to have a video conference to talk through my issue
-            if I couldn't debug it myself. She gave me a nice tip on how she solved it and it sparked an aha moment of
-            my thought the previous night. Once I got that fixed the remaining navigation component went quick and I
-            finished the MVP tasks with a few hours to spare. I got it reviewed and after a quick modification I was
-            good to go on trying some stretch tasks before final submittal. I was relieved and proud of myself for
-            sticking with it and finishing on time.</p>
-        </div>
-        <p class="weeklyp">Now that project week is over and we have a 3-day weekend to reflect and look ahead I'm thankful and grateful for this experience. In 5 weeks I have a project on my own domain which I created with the skills that I picked up in a very short amount of time. Some of my classmates have some really incredible work which I'm super proud of and inspired by. Demo day was a good time to learn and see what's possible with more time and patience. Next week we begin to learn React and I am still planning on fixing some things on my S&J Architects page as well as getting around to implementing the tab navigator on this page and adding a Projects page to display S&J Associates. I also need to fix the mobile view of this page. See you next week if not sooner.</p>
+  </div>
+  <div class="text-content">
+    <h4><span class="daytags">Day 3:</span> <span class="day">Services Desktop is Finished and I Get Stuck Trying
+        to Get My Navigation Overlay to Close</span></h4>
+    <p>A breakthrough day for me. I finished most of my HTML and LESS for all the sites at all the breakpoints
+      necessary for MVP and I started to focus on building the two functional Javascript components. I mostly
+      finished one where the user clicks on the navigation and an overlay menu opens and then it closes when the
+      user clicks the X. Sounds simple but I got stuck not getting the overlay to close and went to sleep
+      dreaming about solutions. I found one as I was drifting to bed but was reminded of it the following day. I
+      knew I had the whole day to implement a functional component that I had succesfully done in the past and to
+      debug my almost done main navigator. I was 80% confident I would finish the project at all by the deadline.</p>
+  </div>
+  <div class="text-content">
+    <h4><span class="daytags">Day 4:</span> <span class="day">Pulling it All Together and Demo Day </span></h4>
+    <p>I woke up and got right to coding knowing that at 2pm was Demo Time. I reached out to my Project Manager
+      and told her of my progress and said that I might have to have a video conference to talk through my issue
+      if I couldn't debug it myself. She gave me a nice tip on how she solved it and it sparked an aha moment of
+      my thought the previous night. Once I got that fixed the remaining navigation component went quick and I
+      finished the MVP tasks with a few hours to spare. I got it reviewed and after a quick modification I was
+      good to go on trying some stretch tasks before final submittal. I was relieved and proud of myself for
+      sticking with it and finishing on time.</p>
+  </div>
+  <p class="weeklyp">Now that project week is over and we have a 3-day weekend to reflect and look ahead I'm thankful
+    and grateful for this experience. In 5 weeks I have a project on my own domain which I created with the skills that
+    I picked up in a very short amount of time. Some of my classmates have some really incredible work which I'm super
+    proud of and inspired by. Demo day was a good time to learn and see what's possible with more time and patience.
+    Next week we begin to learn React and I am still planning on fixing some things on my S&J Architects page as well
+    as getting around to implementing the tab navigator on this page and adding a Projects page to display S&J
+    Associates. I also need to fix the mobile view of this page. See you next week if not sooner.</p>
+  </div>
+  </section>
+
+  <section class="weekly">
+    <h2><span class="cs14">FSW14</span> - Sprint 4 - <span class="weeklytitle">Applied Javascript</span></h2>
+    <p class="intro"> It's hard to believe that it has been a month already of Lambda School. We've come a long way.
+      I am excited and slightly nervous about tomorrow's sprint challenge. I've struggled a bit this week to complete
+      all of the projects. It's mostly been silly mistakes that send me down a path that leads to a new mistake and
+      before long I've lost myself and am not sure where the problem is. I felt good Monday and Tuesday but
+      Functional Programming has been a bit of a challenge. After doing some review I've noticed that most of my
+      errors have been simple spelling mistakes or forgetting to closely check how to call the CSS on a query
+      selector. I'll be on the lookout for that during tomrrow's sprint. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
+        target="_blank">Lambda
+        School - Full Stack Web Development Core</a></p>
+    <div class="top-content">
+      <div class="text-content">
+        <h4><span class="daytags">Day 1:</span> <span class="day">DOM I - Intro</span></h4>
+        <p> I felt really good about this day and probably overconfident as we moved into Tuesday. I had done a fair
+          amount of work over the weekend watching the previous cohort's lecture and starting the project. I didn't
+          appreciate the subtle difference between query and element selectors which cost me heading into Wednesday
+          but I learned a lot on this day. We learned that the DOM stands for the Document Object Model which is an
+          object representation of the HTML of a website that is a tree structure that can be traversed and used to
+          give functionality to websites. The things you can do once you learn this are amazing and I couldn't wait
+          to try the stretch project (a timer that I want to convert into my own jiu-jitsu round timer). A great
+          start to the week. </p>
       </div>
-    </section>
-
-    <section class="weekly">
-      <h2><span class="cs14">FSW14</span> - Sprint 4 - <span class="weeklytitle">Applied Javascript</span></h2>
-      <p class="intro"> It's hard to believe that it has been a month already of Lambda School. We've come a long way.
-        I am excited and slightly nervous about tomorrow's sprint challenge. I've struggled a bit this week to complete
-        all of the projects. It's mostly been silly mistakes that send me down a path that leads to a new mistake and
-        before long I've lost myself and am not sure where the problem is. I felt good Monday and Tuesday but
-        Functional Programming has been a bit of a challenge. After doing some review I've noticed that most of my
-        errors have been simple spelling mistakes or forgetting to closely check how to call the CSS on a query
-        selector. I'll be on the lookout for that during tomrrow's sprint. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
-          target="_blank">Lambda
-          School - Full Stack Web Development Core</a></p>
-      <div class="top-content">
-        <div class="text-content">
-          <h4><span class="daytags">Day 1:</span> <span class="day">DOM I - Intro</span></h4>
-          <p> I felt really good about this day and probably overconfident as we moved into Tuesday. I had done a fair
-            amount of work over the weekend watching the previous cohort's lecture and starting the project. I didn't
-            appreciate the subtle difference between query and element selectors which cost me heading into Wednesday
-            but I learned a lot on this day. We learned that the DOM stands for the Document Object Model which is an
-            object representation of the HTML of a website that is a tree structure that can be traversed and used to
-            give functionality to websites. The things you can do once you learn this are amazing and I couldn't wait
-            to try the stretch project (a timer that I want to convert into my own jiu-jitsu round timer). A great
-            start to the week. </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 2:</span> <span class="day">DOM II - Events & Propagation </span></h4>
-          <p>This was great, we learned how websites listen for events (such as a mouseclick) and respond to that event
-            in some way. We place what are called event listeners on our DOM elements. There were tons to play with.
-            The project entailed adding some to a project we had worked on previously, the Fun Bus Website. I had a
-            good time changing things and learning how to make websites interactive. I did not get to the stretch task
-            on this day and I started to get a bit lost using query selectors to work with some of the event listeners
-            that I was trying to implement.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 3:</span> <span class="day">Components I - Intro</span></h4>
-          <p>We began to learn about components and functional programming as an overall theme. I found the material to
-            be really cool because it allows you to do so much on a website with the skills we have learned so far.
-            Components use HTML, CSS, and Javascript as a chunk of code that can be used to give a website
-            functionality. This was the day we brought it all home and learned how to use objects as classes to target
-            various parts of a website using any methods we wanted. I loved how our project solved a question I was
-            grappling with on this very blog which was, how do I organize all these posts in a way that a user can
-            quickly read what he wants and hide the rest? Components. I failed at completing the project on time due
-            mainly to silly mistakes and typos but I'm starting to see it come together.
-          </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 4:</span> <span class="day">Components II- Class Syntax and Data Attributes
-            </span></h4>
-          <p>Learning how to make classes interact and dance with class syntax and data attributes. So here we are now
-            able to pass data from our HTML to our CSS/Javascript using data attributes. One application of this could
-            be linking different components on a website that share behavior. I, again, failed to complete the project
-            on time. Again, silly mistakes. I didn't catch a capitalization error which was giving me a headache and I
-            added a period to a class selector that didn't need it. I'm hoping I don't make the same mistakes tomorrow.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 5:</span> <span class="day">Sprint Challenge 4 - Applied Javascript</span></h4>
-          <p> In this sprint we are completing challenges similar to what we've been working on all week. We'll see how
-            this goes.</p>
-        </div>
-        <p class="weeklyp"> Sprint was good this week. I finished the basics with about 20 minutes to spare. There were
-          definitely some moments of uncertainty but I had a huge breakthrough in this challenge. I was able to
-          successfully debug my program using the debugger tools we had been shown this week. They were so clutch in
-          getting the logic to work as I wanted. It felt amazing to figure something out that I had struggled with all
-          week. I spent the next few days tinkering with the stretch goal of getting the an image carousel to work and
-          got that done today. The project itself was to create functionality to a website that behaved like the LA
-          Times page. Naturally it was called the Lambda Times. What I really loved is that this week gave an an answer
-          to a question I had which was how to display the contents of this blog in a more organized way. Use
-          components! Going to restyle the site over the next week using all we've learned. This upcoming week is a
-          4-day long Sprint challenge where we take all our training for the past month and put it all to use. We got a
-          preview on Friday and it all looks very do-able. Looking forward to next week and beyond.</p>
+      <div class="text-content">
+        <h4><span class="daytags">Day 2:</span> <span class="day">DOM II - Events & Propagation </span></h4>
+        <p>This was great, we learned how websites listen for events (such as a mouseclick) and respond to that event
+          in some way. We place what are called event listeners on our DOM elements. There were tons to play with.
+          The project entailed adding some to a project we had worked on previously, the Fun Bus Website. I had a
+          good time changing things and learning how to make websites interactive. I did not get to the stretch task
+          on this day and I started to get a bit lost using query selectors to work with some of the event listeners
+          that I was trying to implement.</p>
       </div>
-    </section>
-
-    <section class="weekly">
-      <h2><span class="cs14">FSW14</span> - Sprint 3 - <span class="weeklytitle">JavaScript Fundamentals</span></h2>
-      <p class="intro"> This week we started to learn JavaScript. It was great to see how JavaScript connects with HTML
-        and CSS to produce content we see on web pages and applications across the internet. My favorite activity of
-        the week was adding content to the start of a text-based RPG using the JavaScript skills I had been learning
-        throughout the week. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
-          target="_blank">Lambda
-          School - Full Stack Web Development Core</a></p>
-      <div class="top-content">
-        <div class="text-content">
-          <h4><span class="daytags">Day 1:</span> <span class="day">JavaScript I - Fundamentals</span></h4>
-          <p> We got into it right away on day 1. We covered some of the basics in the first hour of the lecture:
-            variables and arrays and then moved onto objects and functions in the 2nd hour.
-
-            Presently to be accepted to Lambda School you have to complete the pre-course work which included a lot of
-            this JavaScript material or pass the Lambda Challenge which is an on-line JavaScript test essentially.
-            Luckily I had already completed Khan Academy's Javascript section which was extremely helpful in getting me
-            to pass the Lamba Challenge but was also a great foundation for this week's content, especially once we got
-            to object methods and classes.
-
-            We wrapped this day up talking about the differences between 'function scope' and 'block scope' and
-            completed a project where we created objects and used array methods to retrieve specific information from a
-            large data array. </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 2:</span> <span class="day">JavaScript II - Closure, Callbacks & Advanced Array
-              Methods </span></h4>
-          <p>On day 2 we covered the concept of closure, callback and introduced advanced array methods to simplify our
-            work from the previous day. This was a bit confusing at first but once I started to practice and fix my
-            mistakes it was easier than I thought. Closure simply refers to a function within a function, this function
-            will have access to its own variables and methods and those of its parent function but the parent will not
-            have access to the child's attributes or methods. A callback refers to a function that references another
-            function which it needs in order to run. Advanced array methods such as .filter, .map & .reduce are ways to
-            go through an array and pull meaningful data in various ways. The part of the project which was a bit tough
-            for me today was creating a counter function that increments each time it is called. Once I saw my mistake
-            in implementation the concept of closure became a lot clearer. </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 3:</span> <span class="day">JavaScript III - 'this' Keyword</span></h4>
-          <p>Here we learned how to use the 'this' keyword to interact with the objects we create in JavaScript. The
-            four types of binding for 'this' are: Implicit, Explicit, New & Window. Implicit binds 'this' to whatever
-            is to the left of the dot when 'this' is used. Explicit binding is when 'this' is bound to a function
-            method (using call(), apply() or bind()). You can use a functions 'this' scope as the context when you call
-            or apply (to array) it. Bind is used to store a 'this' for later use. New is used to bind 'this' to new
-            objects created by Constructor Functions. Binds 'this' to the constructor function object. Finally, Window
-            binds the 'this' keyword to a global or window-scope.
-          </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 4:</span> <span class="day">JavaScript IV - Refactoring and the Class Keyword
-            </span></h4>
-          <p>Major 'aha' moment for me on this day. Seeing our objects we've been working with this week transform
-            using the Class keyword made closure and inheritance seem way easier than they looked at the beginning of
-            the week. The structure is nicer and made my coding go at a much faster rate. Our project involved
-            refactoring (converting) our constructors into ES6 classes from the previous day's project and using our
-            new skills to create a "school" in Javascript using different classes and methods (for Instructors,
-            Students and Project Managers). I feel ready for today's Sprint Challenge now.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 5:</span> <span class="day">Sprint Challenge 3 - Assessing Your JavaScript
-              Fundamentals</span></h4>
-          <p> In this sprint we are completing challenges similar to what we've been working on all week. Should be
-            pretty straightforward. There hasn't been anything tricky or different from what we've been covering each
-            week in these Sprint Challenges which makes them challenging yet allows you to demonstrate that you
-            understand the knowledge from the week. Time to get started!</p>
-        </div>
-        <p class="weeklyp"> Sprint 3 is finished. I completed all tasks with a few minutes to spare and completed the
-          stretch goal 8 minutes past the hour. There were some tricky portions but it was more of myself overthinking
-          what I had just learned rather than the problems themselves being tough. JavaScript fundamentals was tough
-          but I learned a lot this week as I have every week of this Lambda experience. </p>
+      <div class="text-content">
+        <h4><span class="daytags">Day 3:</span> <span class="day">Components I - Intro</span></h4>
+        <p>We began to learn about components and functional programming as an overall theme. I found the material to
+          be really cool because it allows you to do so much on a website with the skills we have learned so far.
+          Components use HTML, CSS, and Javascript as a chunk of code that can be used to give a website
+          functionality. This was the day we brought it all home and learned how to use objects as classes to target
+          various parts of a website using any methods we wanted. I loved how our project solved a question I was
+          grappling with on this very blog which was, how do I organize all these posts in a way that a user can
+          quickly read what he wants and hide the rest? Components. I failed at completing the project on time due
+          mainly to silly mistakes and typos but I'm starting to see it come together.
+        </p>
       </div>
-    </section>
-
-    <section class="weekly">
-      <h2><span class="cs14">FSW14</span> - Sprint 2 - <span class="weeklytitle">Responsive Design and Preprocessors</span></h2>
-      <p class="intro">This week we learned how to use media queries to build websites that look good on devices of all
-        sizes. We also learned how to use a preprocessor (LESS) to take our CSS skills to another level. Preprocessors
-        are used to increase productivity and reduce errors in that it allows us to re-use codes by using variables and
-        nesting. My favorite project this week was the personal resume page because I was able to throw it right on
-        this website and it was fun to create. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
-          target="_blank">Lambda
-          School - Full Stack Web Development Core</a></p>
-      <div class="top-content">
-        <div class="text-content">
-          <h4><span class="daytags">Day 1:</span> <span class="day">Responsive Design I - Layouts and Media Queries</span></h4>
-          <p>Although this was technically a holiday we were still assigned a lecture the previous Friday and had up
-            until the end of day 2 to finish the project. We learned what it means for a site to be fixed, fluid,
-            adaptive or responsive and how to use media queries to make sites that we design behave and look as
-            intended. </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 2:</span> <span class="day">Responsive Design II - Fully Responsive </span></h4>
-          <p>This was the official start of the week and we started at the beginning, going over many of the concepts
-            from the intro video, but by the end we had learned how to make sites fully repsonsive using percent based
-            values. It was very interesting to hear not only the technical side of coding but also the real world
-            application of when to use a desktop first approach vs. a mobile first design. Great start to the week. </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 3:</span> <span class="day">Preprocessors I - LESS</span></h4>
-          <p>We were introduced to the LESS syntax and learned how this is turned into CSS by a Javascript compiler.
-            Once I saw LESS in action there was a real lightbulb moment and a lot of web development was demystified
-            all at once. It became clear how you could organize all kinds of data and pages using this powerful tool.
-            This was the day we created our digital resumes for daily project. </p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 4:</span> <span class="day">Preprocessors II - LESS Variables, Mixins,
-              Namespaces & Project Organization </span></h4>
-          <p>We dived deeper into LESS and learned how large projects can be organized using a master LESS file.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 5:</span> <span class="day">Sprint Challenge 2 - Responsive Web Design and
-              Preprocessing</span></h4>
-          <p> In this sprint we updated a website using the responsive web design skills that we learned throughout the
-            week. Portions of the website were provided and we were expected to match a desktop and mobile design using
-            the LESS preprocessor and then submit a pull request using Github.</p>
-        </div>
-        <p class="weeklyp"> Feeling really good about these first two weeks. I feel like I have learned an incredible
-          amount in a really short amount of time and am having a lot of fun doing it. Time to study up on some
-          Javascript, looking at the material before the lecture has been really helpful in not getting lost during
-          lecture.</p>
+      <div class="text-content">
+        <h4><span class="daytags">Day 4:</span> <span class="day">Components II- Class Syntax and Data Attributes
+          </span></h4>
+        <p>Learning how to make classes interact and dance with class syntax and data attributes. So here we are now
+          able to pass data from our HTML to our CSS/Javascript using data attributes. One application of this could
+          be linking different components on a website that share behavior. I, again, failed to complete the project
+          on time. Again, silly mistakes. I didn't catch a capitalization error which was giving me a headache and I
+          added a period to a class selector that didn't need it. I'm hoping I don't make the same mistakes tomorrow.</p>
       </div>
-    </section>
-
-    <section class="weekly">
-      <h2><span class="cs14">FSW14</span> - Sprint 1 - <span class="weeklytitle">Introduction to User Interface</span></h2>
-      <p class="intro">The goal of this sprint is to build user interfaces and introduce responsive web design
-        concepts. Concepts
-        covered:
-        Advanced CSS techniques, user interface development practices, and responsive web design patterns. -
-        <a href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1" target="_blank">Lambda
-          School - Full Stack Web Development Core</a></p>
-      <div class="top-content">
-        <div class="text-content">
-          <h4><span class="daytags">Day 1:</span> <span class="day">User Interface I - Semantic HTML and CSS</span></h4>
-          <p>Learned about semantic HTML tags, how to markup a website and integrate CSS styles.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 2:</span> <span class="day">User Interface II - Box Model and CSS Reset</span></h4>
-          <p>Learned how to setup a website using the Box Model and why a CSS reset is important for cross-browser
-            functionality.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 3:</span> <span class="day">User Interface III - Flexbox</span></h4>
-          <p>Learned how to use the flexbox module with the box model to refactor the previous day's assignment and
-            style a new page. It all started to make sense on this day! I realized that I had not made use of an
-            overall "container" in the prior day's assignment. Reviewing the solution and the flexbox lecture cleared
-            it all up.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 4:</span> <span class="day">Git for Web Development</span></h4>
-          <p>Learned how to use the command line interface (CLI) to fork and clone a repo using Git and Github. Created
-            and worked on a branch locally. Learned how to submit a pull request to share code that I have worked on.</p>
-        </div>
-        <div class="text-content">
-          <h4><span class="daytags">Day 5:</span> <span class="day">User Interface and Responsive Web Sprint Challenge</span></h4>
-          <p>Created a fully responsive website from several design files.</p>
-        </div>
-        <p class="weeklyp"> I made this website you are on now with the skills I learned this week! How cool is that!?</p>
+      <div class="text-content">
+        <h4><span class="daytags">Day 5:</span> <span class="day">Sprint Challenge 4 - Applied Javascript</span></h4>
+        <p> In this sprint we are completing challenges similar to what we've been working on all week. We'll see how
+          this goes.</p>
       </div>
+      <p class="weeklyp"> Sprint was good this week. I finished the basics with about 20 minutes to spare. There were
+        definitely some moments of uncertainty but I had a huge breakthrough in this challenge. I was able to
+        successfully debug my program using the debugger tools we had been shown this week. They were so clutch in
+        getting the logic to work as I wanted. It felt amazing to figure something out that I had struggled with all
+        week. I spent the next few days tinkering with the stretch goal of getting the an image carousel to work and
+        got that done today. The project itself was to create functionality to a website that behaved like the LA
+        Times page. Naturally it was called the Lambda Times. What I really loved is that this week gave an an answer
+        to a question I had which was how to display the contents of this blog in a more organized way. Use
+        components! Going to restyle the site over the next week using all we've learned. This upcoming week is a
+        4-day long Sprint challenge where we take all our training for the past month and put it all to use. We got a
+        preview on Friday and it all looks very do-able. Looking forward to next week and beyond.</p>
+    </div>
+  </section>
 
-    </section>
+  <section class="weekly">
+    <h2><span class="cs14">FSW14</span> - Sprint 3 - <span class="weeklytitle">JavaScript Fundamentals</span></h2>
+    <p class="intro"> This week we started to learn JavaScript. It was great to see how JavaScript connects with HTML
+      and CSS to produce content we see on web pages and applications across the internet. My favorite activity of
+      the week was adding content to the start of a text-based RPG using the JavaScript skills I had been learning
+      throughout the week. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
+        target="_blank">Lambda
+        School - Full Stack Web Development Core</a></p>
+    <div class="top-content">
+      <div class="text-content">
+        <h4><span class="daytags">Day 1:</span> <span class="day">JavaScript I - Fundamentals</span></h4>
+        <p> We got into it right away on day 1. We covered some of the basics in the first hour of the lecture:
+          variables and arrays and then moved onto objects and functions in the 2nd hour.
 
-    <footer>
-      <p>&copy;Elvis Ibarra 2018</p>
-    </footer>
+          Presently to be accepted to Lambda School you have to complete the pre-course work which included a lot of
+          this JavaScript material or pass the Lambda Challenge which is an on-line JavaScript test essentially.
+          Luckily I had already completed Khan Academy's Javascript section which was extremely helpful in getting me
+          to pass the Lamba Challenge but was also a great foundation for this week's content, especially once we got
+          to object methods and classes.
+
+          We wrapped this day up talking about the differences between 'function scope' and 'block scope' and
+          completed a project where we created objects and used array methods to retrieve specific information from a
+          large data array. </p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 2:</span> <span class="day">JavaScript II - Closure, Callbacks & Advanced Array
+            Methods </span></h4>
+        <p>On day 2 we covered the concept of closure, callback and introduced advanced array methods to simplify our
+          work from the previous day. This was a bit confusing at first but once I started to practice and fix my
+          mistakes it was easier than I thought. Closure simply refers to a function within a function, this function
+          will have access to its own variables and methods and those of its parent function but the parent will not
+          have access to the child's attributes or methods. A callback refers to a function that references another
+          function which it needs in order to run. Advanced array methods such as .filter, .map & .reduce are ways to
+          go through an array and pull meaningful data in various ways. The part of the project which was a bit tough
+          for me today was creating a counter function that increments each time it is called. Once I saw my mistake
+          in implementation the concept of closure became a lot clearer. </p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 3:</span> <span class="day">JavaScript III - 'this' Keyword</span></h4>
+        <p>Here we learned how to use the 'this' keyword to interact with the objects we create in JavaScript. The
+          four types of binding for 'this' are: Implicit, Explicit, New & Window. Implicit binds 'this' to whatever
+          is to the left of the dot when 'this' is used. Explicit binding is when 'this' is bound to a function
+          method (using call(), apply() or bind()). You can use a functions 'this' scope as the context when you call
+          or apply (to array) it. Bind is used to store a 'this' for later use. New is used to bind 'this' to new
+          objects created by Constructor Functions. Binds 'this' to the constructor function object. Finally, Window
+          binds the 'this' keyword to a global or window-scope.
+        </p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 4:</span> <span class="day">JavaScript IV - Refactoring and the Class Keyword
+          </span></h4>
+        <p>Major 'aha' moment for me on this day. Seeing our objects we've been working with this week transform
+          using the Class keyword made closure and inheritance seem way easier than they looked at the beginning of
+          the week. The structure is nicer and made my coding go at a much faster rate. Our project involved
+          refactoring (converting) our constructors into ES6 classes from the previous day's project and using our
+          new skills to create a "school" in Javascript using different classes and methods (for Instructors,
+          Students and Project Managers). I feel ready for today's Sprint Challenge now.</p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 5:</span> <span class="day">Sprint Challenge 3 - Assessing Your JavaScript
+            Fundamentals</span></h4>
+        <p> In this sprint we are completing challenges similar to what we've been working on all week. Should be
+          pretty straightforward. There hasn't been anything tricky or different from what we've been covering each
+          week in these Sprint Challenges which makes them challenging yet allows you to demonstrate that you
+          understand the knowledge from the week. Time to get started!</p>
+      </div>
+      <p class="weeklyp"> Sprint 3 is finished. I completed all tasks with a few minutes to spare and completed the
+        stretch goal 8 minutes past the hour. There were some tricky portions but it was more of myself overthinking
+        what I had just learned rather than the problems themselves being tough. JavaScript fundamentals was tough
+        but I learned a lot this week as I have every week of this Lambda experience. </p>
+    </div>
+  </section>
+
+  <section class="weekly">
+    <h2><span class="cs14">FSW14</span> - Sprint 2 - <span class="weeklytitle">Responsive Design and Preprocessors</span></h2>
+    <p class="intro">This week we learned how to use media queries to build websites that look good on devices of all
+      sizes. We also learned how to use a preprocessor (LESS) to take our CSS skills to another level. Preprocessors
+      are used to increase productivity and reduce errors in that it allows us to re-use codes by using variables and
+      nesting. My favorite project this week was the personal resume page because I was able to throw it right on
+      this website and it was fun to create. <a class="lambda" href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1"
+        target="_blank">Lambda
+        School - Full Stack Web Development Core</a></p>
+    <div class="top-content">
+      <div class="text-content">
+        <h4><span class="daytags">Day 1:</span> <span class="day">Responsive Design I - Layouts and Media Queries</span></h4>
+        <p>Although this was technically a holiday we were still assigned a lecture the previous Friday and had up
+          until the end of day 2 to finish the project. We learned what it means for a site to be fixed, fluid,
+          adaptive or responsive and how to use media queries to make sites that we design behave and look as
+          intended. </p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 2:</span> <span class="day">Responsive Design II - Fully Responsive </span></h4>
+        <p>This was the official start of the week and we started at the beginning, going over many of the concepts
+          from the intro video, but by the end we had learned how to make sites fully repsonsive using percent based
+          values. It was very interesting to hear not only the technical side of coding but also the real world
+          application of when to use a desktop first approach vs. a mobile first design. Great start to the week. </p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 3:</span> <span class="day">Preprocessors I - LESS</span></h4>
+        <p>We were introduced to the LESS syntax and learned how this is turned into CSS by a Javascript compiler.
+          Once I saw LESS in action there was a real lightbulb moment and a lot of web development was demystified
+          all at once. It became clear how you could organize all kinds of data and pages using this powerful tool.
+          This was the day we created our digital resumes for daily project. </p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 4:</span> <span class="day">Preprocessors II - LESS Variables, Mixins,
+            Namespaces & Project Organization </span></h4>
+        <p>We dived deeper into LESS and learned how large projects can be organized using a master LESS file.</p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 5:</span> <span class="day">Sprint Challenge 2 - Responsive Web Design and
+            Preprocessing</span></h4>
+        <p> In this sprint we updated a website using the responsive web design skills that we learned throughout the
+          week. Portions of the website were provided and we were expected to match a desktop and mobile design using
+          the LESS preprocessor and then submit a pull request using Github.</p>
+      </div>
+      <p class="weeklyp"> Feeling really good about these first two weeks. I feel like I have learned an incredible
+        amount in a really short amount of time and am having a lot of fun doing it. Time to study up on some
+        Javascript, looking at the material before the lecture has been really helpful in not getting lost during
+        lecture.</p>
+    </div>
+  </section>
+
+  <section class="weekly">
+    <h2><span class="cs14">FSW14</span> - Sprint 1 - <span class="weeklytitle">Introduction to User Interface</span></h2>
+    <p class="intro">The goal of this sprint is to build user interfaces and introduce responsive web design
+      concepts. Concepts
+      covered:
+      Advanced CSS techniques, user interface development practices, and responsive web design patterns. -
+      <a href="https://learn.lambdaschool.com/syllabus/cs-fsw#full-stack-web-development-core-1" target="_blank">Lambda
+        School - Full Stack Web Development Core</a></p>
+    <div class="top-content">
+      <div class="text-content">
+        <h4><span class="daytags">Day 1:</span> <span class="day">User Interface I - Semantic HTML and CSS</span></h4>
+        <p>Learned about semantic HTML tags, how to markup a website and integrate CSS styles.</p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 2:</span> <span class="day">User Interface II - Box Model and CSS Reset</span></h4>
+        <p>Learned how to setup a website using the Box Model and why a CSS reset is important for cross-browser
+          functionality.</p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 3:</span> <span class="day">User Interface III - Flexbox</span></h4>
+        <p>Learned how to use the flexbox module with the box model to refactor the previous day's assignment and
+          style a new page. It all started to make sense on this day! I realized that I had not made use of an
+          overall "container" in the prior day's assignment. Reviewing the solution and the flexbox lecture cleared
+          it all up.</p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 4:</span> <span class="day">Git for Web Development</span></h4>
+        <p>Learned how to use the command line interface (CLI) to fork and clone a repo using Git and Github. Created
+          and worked on a branch locally. Learned how to submit a pull request to share code that I have worked on.</p>
+      </div>
+      <div class="text-content">
+        <h4><span class="daytags">Day 5:</span> <span class="day">User Interface and Responsive Web Sprint Challenge</span></h4>
+        <p>Created a fully responsive website from several design files.</p>
+      </div>
+      <p class="weeklyp"> I made this website you are on now with the skills I learned this week! How cool is that!?</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy;Elvis Ibarra 2018</p>
+  </footer>
 
   </div><!-- container -->
+
+  <script src="./Blog Navigation/blognav.js"></script>
 </body>
 
 </html>
