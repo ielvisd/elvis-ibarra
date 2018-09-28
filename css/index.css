@@ -483,7 +483,7 @@ footer {
 .container.home .homenamepic {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 @media (max-width: 500px) {
   .container.home .homenamepic {
@@ -507,9 +507,10 @@ footer {
   }
 }
 .projects {
-  margin-top: 90px;
+  margin-top: 0px;
   display: flex;
   text-align: center;
+  padding-top: 50px;
 }
 @media (max-width: 500px) {
   .projects {
@@ -543,11 +544,22 @@ footer {
   color: white;
   font-size: 2rem;
 }
+.projects .projectimgdiv {
+  margin: 0 auto;
+}
 .projects .projectimgdiv .projectimg {
   border-radius: 50%;
+  width: 300px;
+  height: auto;
 }
 @media (max-width: 500px) {
   .projects .projectimgdiv {
     display: none;
   }
+}
+.projects.first {
+  margin-top: 60px;
+}
+.projects.middle {
+  flex-direction: row-reverse;
 }
