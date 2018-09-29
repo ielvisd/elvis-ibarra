@@ -284,7 +284,7 @@ img {
   justify-content: space-between;
   align-items: center;
   background-color: #99A4AF;
-  padding: 10px 2.75%;
+  padding: 15px 10%;
 }
 .headerdiv header img {
   width: auto;
@@ -405,8 +405,8 @@ img {
   }
 }
 .CTA img {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (min-width: 500px) {
   .CTA img {
@@ -426,14 +426,14 @@ img {
   font-size: 2.5rem;
   color: black;
   padding-top: 25px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 8%;
+  padding-right: 0%;
 }
 @media (min-width: 500px) {
   .CTA h3 {
     padding-top: 30px;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 10%;
+    padding-right: 5%;
   }
 }
 .CTA p {
@@ -442,17 +442,17 @@ img {
 @media (min-width: 500px) {
   .CTA p {
     padding-top: 20px;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 10%;
+    padding-right: 5%;
   }
 }
 .CTA button {
   width: 92%;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 10%;
   margin-top: 10px;
   margin-bottom: 40px;
   background: white;
@@ -465,7 +465,7 @@ img {
     padding-bottom: 16px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 }
 .projectstitle {
