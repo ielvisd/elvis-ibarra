@@ -296,10 +296,18 @@ header nav a:last-child {
   font-size: 1.75rem;
   font-weight: bold;
 }
-.weekly .p {
+.weeklyp {
   margin-top: 20px;
   color: darkblue;
   font-weight: bold;
+}
+.postImagesContainer {
+  margin: 10px auto;
+  display:flex;
+  justify-content:center;
+}
+.postImages {
+  border: dashed #EF62A4;
 }
 
 footer {
