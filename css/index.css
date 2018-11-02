@@ -296,11 +296,12 @@ header nav a:last-child {
   font-size: 1.75rem;
   font-weight: bold;
 }
-.weeklyp {
+.weekly .p {
   margin-top: 20px;
   color: darkblue;
   font-weight: bold;
 }
+
 footer {
   display: flex;
   justify-content: center;
