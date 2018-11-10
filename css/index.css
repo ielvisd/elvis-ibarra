@@ -301,6 +301,15 @@ header nav a:last-child {
   color: darkblue;
   font-weight: bold;
 }
+.weeklylambda {
+  margin-top: 20px;
+  color: #EF62A4;
+  font-weight: bold;
+}
+.twitter-tweet {
+  border: dashed #EF62A4;
+
+}
 .postImagesContainer {
   margin: 10px auto;
   display:flex;
