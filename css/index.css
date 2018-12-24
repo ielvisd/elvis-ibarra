@@ -555,7 +555,7 @@ footer {
 }
 .projects button {
   padding: 30px 20%;
-  background: #5E9FB9;
+  background: #EF62A4;
 }
 .projects button a {
   text-decoration: none;
@@ -580,4 +580,8 @@ footer {
 }
 .projects.middle {
   flex-direction: row-reverse;
+}
+
+.projectscontent {
+  margin-top: 50px;
 }
