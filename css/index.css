@@ -528,7 +528,7 @@ footer {
   margin-top: 0px;
   display: flex;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 @media (max-width: 500px) {
   .projects {
@@ -541,7 +541,7 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  padding-top: 50px;
+  align-self:center;
   font-size: 1.6rem;
 }
 .projects .middletext h1 {
