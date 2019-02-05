@@ -482,18 +482,14 @@ footer {
 }
 .halfnav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
-.halfnav a {
-  margin: 0 auto;
-}
+
 .halfnav.first {
-  padding: 0 10%;
 }
 .halfnav.second {
   border-top: dashed #EF62A4;
-  padding: 0 3%;
 }
 .container.home {
   border: solid black;
@@ -519,6 +515,8 @@ footer {
   align-self: center;
   margin: 30px 0px;
 }
+
+
 @media (max-width: 500px) {
   .container.home .profilepic {
     margin: 30px 0px;
@@ -528,11 +526,10 @@ footer {
   margin-top: 0px;
   display: flex;
   text-align: center;
-  padding-top: 100px;
+  padding: 20px 20px;
 }
 @media (max-width: 500px) {
   .projects {
-    margin-top: 60px;
     width: 100%;
   }
 }
@@ -569,6 +566,7 @@ footer {
   border-radius: 50%;
   width: 300px;
   height: auto;
+
 }
 @media (max-width: 500px) {
   .projects .projectimgdiv {
@@ -576,7 +574,7 @@ footer {
   }
 }
 .projects.first {
-  margin-top: 60px;
+  background: gainsboro;
 }
 .projects.middle {
   flex-direction: row-reverse;
@@ -584,4 +582,62 @@ footer {
 
 .projectscontent {
   margin-top: 50px;
+}
+
+.aboutItems {
+  border: solid red;
+  margin-top: 70px;
+  display: flex;
+}
+
+.aboutprofilepic {
+  width: auto;
+  height: 300px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  align-self: center;
+  margin: 0px 0px;
+  margin-bottom: 20px;
+  border: solid darkblue;
+}
+.abouthomenamepic {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.abouttitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  color: darkblue;
+  font-size: 4rem;
+  padding-top: 10px;
+}
+
+.aboutday {
+  color: darkblue;
+}
+
+.projectstitle {
+  text-align: center;
+  margin-top: 75px;
+  color: darkblue;
+  font-size: 4rem;
+  padding-top: 10px;
+}
+
+.twitter {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journal {
+  margin-bottom: 20px;
 }
