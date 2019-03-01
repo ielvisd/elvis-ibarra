@@ -400,7 +400,7 @@ footer {
   padding-top: 10%;
   padding-bottom: 15%;
 }
-.resume .Namepic .middletext button {
+.projectButton {
   border: none;
   width: 80%;
   padding: 10px;
@@ -413,6 +413,7 @@ footer {
   background: #EF62A4;
   color: #FFFFFF;
   text-align: center;
+  cursor:pointer
 }
 .resume .Namepic .middletext button:hover {
   background: solid blue;
