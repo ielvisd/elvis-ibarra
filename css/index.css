@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -134,14 +134,14 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -164,6 +164,13 @@ h5 {
   .container {
     max-width: 350px;
   }
+}
+.dev-tip {
+  margin: 8px 16px;
+  line-height: 2.5rem;
+}
+.bold {
+  font-weight: bold;
 }
 .title {
   display: flex;
@@ -201,7 +208,7 @@ h5 {
   }
 }
 .rest nav a {
-  color: #EF62A4;
+  color: #ef62a4;
   text-decoration: none;
   font-size: 2rem;
   padding: 10px 0;
@@ -262,14 +269,14 @@ header nav a:last-child {
   margin-top: 0px;
 }
 .weekly .cs14 {
-  color: #EF62A4;
+  color: #ef62a4;
 }
 .weekly .weeklytitle {
   font-size: 2rem;
   color: darkblue;
 }
 .weekly .daytags {
-  color: #EF62A4;
+  color: #ef62a4;
 }
 .weekly h4 {
   margin-top: 0px;
@@ -303,20 +310,19 @@ header nav a:last-child {
 }
 .weeklylambda {
   margin-top: 20px;
-  color: #EF62A4;
+  color: #ef62a4;
   font-weight: bold;
 }
 .twitter-tweet {
-  border: dashed #EF62A4;
-
+  border: dashed #ef62a4;
 }
 .postImagesContainer {
   margin: 10px auto;
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
 }
 .postImages {
-  border: dashed #EF62A4;
+  border: dashed #ef62a4;
 }
 
 footer {
@@ -340,7 +346,7 @@ footer {
   }
 }
 .resume header a {
-  color: #EF62A4;
+  color: #ef62a4;
   text-decoration: none;
 }
 @media (max-width: 500px) {
@@ -355,7 +361,7 @@ footer {
 }
 .resume h3 {
   font-size: 2rem;
-  color: #EF62A4;
+  color: #ef62a4;
   font-weight: bold;
 }
 .resume h4 {
@@ -388,7 +394,7 @@ footer {
 }
 .resume .Namepic h1 {
   font-size: 3rem;
-  color: #EF62A4;
+  color: #ef62a4;
 }
 .resume .Namepic .middletext {
   justify-content: center;
@@ -410,10 +416,10 @@ footer {
   -o-border-radius: 10px;
   border-radius: 10px;
   text-decoration: none;
-  background: #EF62A4;
-  color: #FFFFFF;
+  background: #ef62a4;
+  color: #ffffff;
   text-align: center;
-  cursor:pointer
+  cursor: pointer;
 }
 .resume .Namepic .middletext button:hover {
   background: solid blue;
@@ -439,7 +445,7 @@ footer {
 .resume .main-content .IntroSkills h3 {
   margin-bottom: 5px;
   font-size: 2rem;
-  color: #EF62A4;
+  color: #ef62a4;
   font-weight: bold;
 }
 .resume .main-content .topcontent {
@@ -448,7 +454,7 @@ footer {
   padding-right: 7%;
 }
 .resume .main-content .topcontent a {
-  color: #EF62A4;
+  color: #ef62a4;
 }
 .resume .main-content .topcontent ul.skills {
   margin-top: 0px;
@@ -459,7 +465,7 @@ footer {
   padding: 30px 7%;
 }
 .resume .Workexperience a {
-  color: #EF62A4;
+  color: #ef62a4;
 }
 .resume .Workexperience .workcontent {
   margin-top: 20px;
@@ -490,7 +496,7 @@ footer {
 .halfnav.first {
 }
 .halfnav.second {
-  border-top: dashed #EF62A4;
+  border-top: dashed #ef62a4;
 }
 .container.home {
   border: solid black;
@@ -517,7 +523,6 @@ footer {
   margin: 30px 0px;
 }
 
-
 @media (max-width: 500px) {
   .container.home .profilepic {
     margin: 30px 0px;
@@ -539,7 +544,7 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  align-self:center;
+  align-self: center;
   font-size: 1.6rem;
 }
 .projects .middletext h1 {
@@ -553,7 +558,7 @@ footer {
 }
 .projects button {
   padding: 30px 20%;
-  background: #EF62A4;
+  background: #ef62a4;
 }
 .projects button a {
   text-decoration: none;
@@ -567,7 +572,6 @@ footer {
   border-radius: 50%;
   width: 300px;
   height: auto;
-
 }
 @media (max-width: 500px) {
   .projects .projectimgdiv {

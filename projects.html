@@ -3,29 +3,37 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135442345-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-135442345-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-135442345-1');
-</script>
+      gtag("config", "UA-135442345-1");
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Elvis Ibarra's Projects</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/index.css" />
 
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
 
   <body>
@@ -33,47 +41,69 @@
       <header class="rest">
         <nav class="normalnav">
           <div class="halfnav first">
-            <a href="index.html">Home</a> <a href="about.html">About</a> <a href="resume.html">Resume</a>
+            <a href="index.html">Home</a> <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
           </div>
 
           <div class="halfnav second">
-            <a href="lambdablog.html">Lambda Blog</a> <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="projects.html">Projects</a>
             <a onclick="location.href='mailto:ielvisd@gmail.com';">Contact</a>
           </div>
         </nav>
       </header>
       <h1 class="projectstitle">Projects</h1>
 
-
       <div class="projectscontent">
-          <section class="projects first">
-              <div class="middletext">
-                <h1>FlexLog</h1>
-                <h2>Flexlog is an app for where people can create and track their fitness progress and scheduled workouts. 
-    
-                </h2>
-                <a  class="journal" href="https://elvisibarra-labs9-journal.netlify.com/">Development Journal</a>
-             
-                <input class="projectButton" type="button" onclick="location.href='https://flexlog.app/';" value="FlexLog" />
-      
-              </div>
-              <div class="projectimgdiv">
-                <img
-                  class="projectimg"
-                  src="./images/victor.jpg"
-                  alt="A Person Working Out"
-                />
-              </div>
-            </section>
+        <section class="projects first">
+          <div class="middletext">
+            <h1>FlexLog</h1>
+            <h2>
+              Flexlog is an app for where people can create and track their
+              fitness progress and scheduled workouts.
+            </h2>
+            <a
+              class="journal"
+              href="https://elvisibarra-labs9-journal.netlify.com/"
+              >Development Journal</a
+            >
+
+            <input
+              class="projectButton"
+              type="button"
+              onclick="location.href='https://flexlog.app/';"
+              value="FlexLog"
+            />
+          </div>
+          <div class="projectimgdiv">
+            <img
+              class="projectimg"
+              src="./images/victor.jpg"
+              alt="A Person Working Out"
+            />
+          </div>
+        </section>
         <section class="projects middle">
           <div class="middletext">
             <h1>Lambda Notes</h1>
 
-            <h2>Built with React/Redux Front End Deployed to Github Pages & Postgres Back End Deployed to Heroku</h2>
-            <input class="projectButton" type="button" onclick="location.href='https://ielvisd.github.io/front-end-project-week/';" value="Lambda Notes" />
+            <h2>
+              Built with React/Redux Front End Deployed to Github Pages &
+              Postgres Back End Deployed to Heroku
+            </h2>
+            <input
+              class="projectButton"
+              type="button"
+              onclick="location.href='https://ielvisd.github.io/front-end-project-week/';"
+              value="Lambda Notes"
+            />
           </div>
           <div class="projectimgdiv">
-            <img class="projectimg" src="./images/kyle-glenn-678340-unsplash.jpg" alt="PostIt Notes on a Wall" />
+            <img
+              class="projectimg"
+              src="./images/kyle-glenn-678340-unsplash.jpg"
+              alt="PostIt Notes on a Wall"
+            />
           </div>
         </section>
 
@@ -81,7 +111,12 @@
           <div class="middletext">
             <h1>S&J Architects</h1>
             <h2>A mobile first designed web page</h2>
-            <input class="projectButton" type="button" onclick="location.href='./SJ-Associates/index.html';" value="S&J Architects" />
+            <input
+              class="projectButton"
+              type="button"
+              onclick="location.href='./SJ-Associates/index.html';"
+              value="S&J Architects"
+            />
           </div>
           <div class="projectimgdiv">
             <img
@@ -95,10 +130,19 @@
         <section class="projects middle">
           <div class="middletext">
             <h1>Check Out My Github Page:</h1>
-            <input class="projectButton" type="button" onclick="location.href='https://github.com/ielvisd';" value="@ielvisd" />
+            <input
+              class="projectButton"
+              type="button"
+              onclick="location.href='https://github.com/ielvisd';"
+              value="@ielvisd"
+            />
           </div>
           <div class="projectimgdiv">
-            <img class="projectimg" src="./images/ElvisIbarraProfile.jpg" alt="A Modern Building" />
+            <img
+              class="projectimg"
+              src="./images/ElvisIbarraProfile.jpg"
+              alt="A Modern Building"
+            />
           </div>
         </section>
 
@@ -110,7 +154,11 @@
               class="twitter-follow-button"
               data-show-count="false"
               >Follow @eltoritoelvis</a
-            ><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            ><script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
           </div>
           <div class="projectimgdiv">
             <a
@@ -120,7 +168,11 @@
               href="https://twitter.com/ElToritoElvis?ref_src=twsrc%5Etfw"
               >Tweets by ElToritoElvis</a
             >
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
           </div>
         </section>
       </div>
