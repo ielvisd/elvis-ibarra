@@ -268,6 +268,7 @@ header nav a:last-child {
 .weekly .intro {
   margin-top: 0px;
 }
+
 .weekly .cs14 {
   color: #ef62a4;
 }
@@ -613,7 +614,9 @@ footer {
   flex-direction: column;
   margin-top: 0px;
 }
-
+.top-content {
+  width: 100%;
+}
 .abouttitle {
   display: flex;
   justify-content: center;
@@ -650,16 +653,15 @@ footer {
 .img-container {
   display: flex;
   /* border: solid red; */
+  max-width: 250px;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 
 .blogimg {
-  /* width: 100%; */
-  max-width: 350px;
-  margin: 0 auto;
-  margin: 24px;
+  width: 100%;
 }
 
 .bullet {
@@ -675,4 +677,10 @@ footer {
 li {
   margin: 0 0 3px 0;
   line-height: 2.5rem;
+  /* width: 200px; */
+}
+
+.intro-center {
+  text-align: center;
+  margin: 0 auto;
 }
