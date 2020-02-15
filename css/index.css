@@ -684,3 +684,10 @@ li {
   text-align: center;
   margin: 0 auto;
 }
+
+.money-button {
+  display: inherit;
+  /* border: solid red; */
+  margin: 0 24px;
+  /* align-self: center; */
+}
