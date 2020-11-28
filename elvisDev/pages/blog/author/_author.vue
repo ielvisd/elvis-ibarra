@@ -4,8 +4,7 @@
   >
     <div class="relative lg:w-1/2 xs:w-full xs:h-84 lg:h-full post-left">
       <img
-        :src="articles[0].author.img"
-        :alt="articles[0].author.name"
+        :src="require(`~/assets/img/${articles[0].author.img}`)"
         class="absolute h-full w-full object-cover"
       />
     </div>

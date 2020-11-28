@@ -31,7 +31,7 @@
       </div>
       <div class="flex absolute top-3rem right-3rem">
         <NuxtLink
-          to="/"
+          to="/blog"
           class="mr-8 self-center text-white font-bold hover:underline"
         >
           All articles
@@ -130,5 +130,73 @@ export default {
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
+}
+
+.weekly {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.weekly .intro {
+  margin-top: 0;
+}
+
+.weekly .cs14 {
+  color: #ef62a4;
+}
+.weekly .weeklytitle {
+  color: darkblue;
+}
+.weekly .daytags {
+  color: #ef62a4;
+}
+.weekly h4 {
+  margin-top: 0;
+}
+.weekly .day {
+  color: darkblue;
+}
+.weekly p {
+  text-indent: 40px;
+}
+.weekly h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.weekly .text-content {
+  margin-top: 20px;
+}
+.weekly .text-content p {
+  margin-top: 0;
+}
+.weekly .text-content h4 {
+  font-weight: bold;
+}
+.weeklyp {
+  margin-top: 20px;
+  color: darkblue;
+  font-weight: bold;
+}
+.weeklylambda {
+  margin-top: 20px;
+  color: #ef62a4;
+  font-weight: bold;
+}
+.twitter-tweet {
+  border: dashed #ef62a4;
+}
+.postImagesContainer {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.postImages {
+  border: dashed #ef62a4;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 </style>
