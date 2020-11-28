@@ -1,6 +1,6 @@
 ---
-title: 'Lambda School FSW14: Sprint 1'
-description: Introduction to User Interface
+title: 'Introduction to User Interface'
+description: 'Lambda School: FSW14 - Sprint 1'
 img: https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80
 alt: Introduction to User Interface
 author:
@@ -11,6 +11,7 @@ tags:
   - css
   - html
   - lambda school
+  - web development
 ---
 
   <section class="weekly">

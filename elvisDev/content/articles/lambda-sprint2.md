@@ -1,7 +1,7 @@
 ---
-title: 'Lambda School FSW14: Sprint 2'
-description: Responsive Design and Preprocessors
-img: https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80
+title: Responsive Design and Preprocessors
+description: 'Lambda School: FSW14 - Sprint 2'
+img: https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80
 alt: Responsive Design and Preprocessors
 author:
   name: Elvis Ibarra
@@ -11,6 +11,7 @@ tags:
   - css
   - html
   - lambda school
+  - web development
 ---
 
 <section class="weekly">
