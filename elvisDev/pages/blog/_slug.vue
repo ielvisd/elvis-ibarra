@@ -10,7 +10,11 @@
       />
       <div class="overlay"></div>
       <div class="absolute top-32 left-32 text-white">
-        <NuxtLink to="/"><Logo /></NuxtLink>
+        <NuxtLink to="/"
+          ><img
+            class="mb-4 w-12"
+            :src="require(`~/assets/img/ElvisBanksy.jpg`)"
+        /></NuxtLink>
         <div class="mt-16 -mb-3 flex uppercase text-sm">
           <p class="mr-3">
             {{ formatDate(article.updatedAt) }}
@@ -18,11 +22,11 @@
           <span class="mr-3">•</span>
           <p>{{ article.author.name }}</p>
         </div>
-        <h1 class="text-6xl font-bold">{{ article.title }}</h1>
+        <h1 class="text-6xl font-bold text-pink-700">{{ article.title }}</h1>
         <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
-              class="truncate uppercase tracking-wider font-medium text-ss px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
+              class="truncate uppercase tracking-wider font-medium text-ss px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear text-pink-700"
             >
               {{ tags[tag].name }}
             </span>
