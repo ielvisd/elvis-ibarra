@@ -19,8 +19,7 @@ tags:
       concepts. Concepts
       covered:
       Advanced CSS techniques, user interface development practices, and responsive web design patterns.
-      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Learn to program <a href="https://twitter.com/LambdaSchool?ref_src=twsrc%5Etfw">@LambdaSchool</a>❤️ Awesome curriculum, instructors, pm&#39;s, students &amp; no tuition until after you&#39;ve graduated and are hired🤯 Sign up with my ambassador link 🔥<a href="https://t.co/W6OGr1c1EL">https://t.co/W6OGr1c1EL</a>🔥 if you are interested! See how it&#39;s gone for me so far: <a href="https://t.co/ElP2cC3zWp">https://t.co/ElP2cC3zWp</a>✌️</p>&mdash; Elvis Ibarra 🐃 (@ElToritoElvis) <a href="https://twitter.com/ElToritoElvis/status/1060406384431230976?ref_src=twsrc%5Etfw">November 8, 2018</a></blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</p>
     <div class="top-content">
       <div class="text-content">
         <h4><span class="daytags">Day 1:</span> <span class="day">User Interface I - Semantic HTML and CSS</span></h4>

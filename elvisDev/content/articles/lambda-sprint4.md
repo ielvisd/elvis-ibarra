@@ -2,7 +2,7 @@
 title: Applied Javascript
 description: 'Lambda School: FSW14 - Sprint 4'
 img: https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80
-alt: Responsive Design and Preprocessors
+alt: Applied Javascript
 author:
   name: Elvis Ibarra
   bio: All about Elvis, what he does, and where he works
@@ -20,8 +20,7 @@ tags:
       before long I've lost myself and am not sure where the problem is. I felt good Monday and Tuesday but
       Functional Programming has been a bit of a challenge. After doing some review I've noticed that most of my
       errors have been simple spelling mistakes or forgetting to closely check how to call the CSS on a query
-      selector. I'll be on the lookout for that during tomrrow's sprint.   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Learn to program <a href="https://twitter.com/LambdaSchool?ref_src=twsrc%5Etfw">@LambdaSchool</a>❤️ Awesome curriculum, instructors, pm&#39;s, students &amp; no tuition until after you&#39;ve graduated and are hired🤯 Sign up with my ambassador link 🔥<a href="https://t.co/W6OGr1c1EL">https://t.co/W6OGr1c1EL</a>🔥 if you are interested! See how it&#39;s gone for me so far: <a href="https://t.co/ElP2cC3zWp">https://t.co/ElP2cC3zWp</a>✌️</p>&mdash; Elvis Ibarra 🐃 (@ElToritoElvis) <a href="https://twitter.com/ElToritoElvis/status/1060406384431230976?ref_src=twsrc%5Etfw">November 8, 2018</a></blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      selector. I'll be on the lookout for that during tomrrow's sprint.   </p>
     <div class="top-content">
       <div class="text-content">
         <h4><span class="daytags">Day 1:</span> <span class="day">DOM I - Intro</span></h4>

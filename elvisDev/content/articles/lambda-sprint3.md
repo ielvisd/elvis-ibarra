@@ -2,7 +2,7 @@
 title: JavaScript Fundamentals
 description: 'Lambda School: FSW14 - Sprint 3'
 img: https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80
-alt: Responsive Design and Preprocessors
+alt: JavaScript Fundamentals
 author:
   name: Elvis Ibarra
   bio: All about Elvis, what he does, and where he works
@@ -17,8 +17,7 @@ tags:
     <p class="intro"> This week we started to learn JavaScript. It was great to see how JavaScript connects with HTML
       and CSS to produce content we see on web pages and applications across the internet. My favorite activity of
       the week was adding content to the start of a text-based RPG using the JavaScript skills I had been learning
-      throughout the week.   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Learn to program <a href="https://twitter.com/LambdaSchool?ref_src=twsrc%5Etfw">@LambdaSchool</a>❤️ Awesome curriculum, instructors, pm&#39;s, students &amp; no tuition until after you&#39;ve graduated and are hired🤯 Sign up with my ambassador link 🔥<a href="https://t.co/W6OGr1c1EL">https://t.co/W6OGr1c1EL</a>🔥 if you are interested! See how it&#39;s gone for me so far: <a href="https://t.co/ElP2cC3zWp">https://t.co/ElP2cC3zWp</a>✌️</p>&mdash; Elvis Ibarra 🐃 (@ElToritoElvis) <a href="https://twitter.com/ElToritoElvis/status/1060406384431230976?ref_src=twsrc%5Etfw">November 8, 2018</a></blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      throughout the week.  </p>
     <div class="top-content">
       <div class="text-content">
         <h4><span class="daytags">Day 1:</span> <span class="day">JavaScript I - Fundamentals</span></h4>
