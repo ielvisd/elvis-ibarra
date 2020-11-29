@@ -3,6 +3,7 @@ title: 'Build Week'
 description: 'Lambda School: CS15 - Sprint 5'
 img: https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80
 alt: 'Build Week'
+updatedAt: '978307200'
 author:
   name: Elvis Ibarra
   bio: All about Elvis, what he does, and where he works
