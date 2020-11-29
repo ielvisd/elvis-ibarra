@@ -37,14 +37,14 @@
                 </NuxtLink>
               </li>
               <li class="nav-item">
-                <a
+                <NuxtLink
                   class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-pink-600 hover:opacity-75"
-                  href="#pablo"
+                  to="/resume"
                 >
                   <i
                     class="fab fa-twitter text-lg leading-lg text-pink-600 opacity-75"
                   /><span class="ml-2">Resume</span>
-                </a>
+                </NuxtLink>
               </li>
               <li class="nav-item">
                 <NuxtLink

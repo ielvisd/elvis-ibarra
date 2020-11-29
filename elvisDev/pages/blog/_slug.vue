@@ -22,7 +22,9 @@
           <span class="mr-3">•</span>
           <p>{{ article.author.name }}</p>
         </div>
-        <h1 class="text-6xl font-bold text-pink-700">{{ article.title }}</h1>
+        <h1 class="mt-4 sm:mt-0 text-3xl sm:text-5xl font-bold text-pink-700">
+          {{ article.title }}
+        </h1>
         <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
@@ -33,7 +35,7 @@
           </NuxtLink>
         </span>
       </div>
-      <div class="flex absolute top-3rem right-3rem">
+      <div class="flex absolute mt-12 ml-8 sm:mt-0 sm:ml-0 top-3rem right-3rem">
         <NuxtLink
           to="/blog"
           class="mr-8 self-center text-white font-bold hover:underline"
@@ -190,6 +192,14 @@ export default {
 }
 .postImages {
   border: dashed #ef62a4;
+}
+
+.dev-tip {
+  margin: 8px 16px;
+  line-height: 2.5rem;
+}
+.bold {
+  font-weight: bold;
 }
 
 footer {
