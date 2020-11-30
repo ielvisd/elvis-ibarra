@@ -207,4 +207,23 @@ footer {
   justify-content: center;
   margin-top: 20px;
 }
+
+.intro-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bullet {
+  margin-left: 32px;
+  font-weight: bold;
+}
+
+.bullet-light {
+  margin-left: 64px;
+  margin-bottom: 24px;
+}
+
+li {
+  margin: 0 0 3px 0;
+}
 </style>
